@@ -1,0 +1,19 @@
+{
+  "setupFiles": ["../jest/setup.ts"],
+  "transform": {
+    "^.+\\.(t|j)sx?$": "ts-jest"
+  },
+  "rootDir": "../src/",
+  "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?|js?|ts?)$",
+  "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+  "moduleNameMapper": {
+    "^.+\\.css$": "<rootDir>/../jest/empty-svg.ts"
+  },
+  "coverageReporters": ["json", "lcov", "text-summary"],
+  "coverageDirectory": "<rootDir>/../coverage",
+  "collectCoverageFrom": [
+    "<rootDir>/**/*.{ts,tsx,js,jsx}",
+    "!<rootDir>/**/*.story.{ts,tsx,js,jsx}",
+    "!<rootDir>/slider/**"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "typeRoots": [
+      "node_modules/@types",
+    ],
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./images.d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "./jest",
+    "./src/**/__tests__",
+    "./.storybook",
+    "./src/**/__stories__",
+  ]
+}

@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing H3 component matches H3 snapshot 1`] = `ShallowWrapper {}`;

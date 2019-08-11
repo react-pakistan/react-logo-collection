@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "es5",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "declaration": true,
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": [
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
+    "./images.d.ts",
+    "./node_modules/@types"
+  ],
+  "exclude": [
+    "./jest",
+    "./src/**/__tests__",
+    "./.storybook",
+    "./src/**/__stories__",
+  ]
+}
