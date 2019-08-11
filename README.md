@@ -1,7 +1,7 @@
-<img src="https://i.ibb.co/k8Y3RMh/React-Pakistan-Logo-01.jpg" alt="React Pakistan - React Commons Collection" width="100%" />
+<img src="https://i.ibb.co/k8Y3RMh/React-Pakistan-Logo-01.jpg" alt="React Pakistan - React Logos Collection" width="100%" />
 
-# Icons Library built upon React Storybook
-A generic to specific, Common UI library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+# Logos Library built upon React Storybook
+A generic to specific, Logos library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
 Following are some good house keeping rules which every collaborator should adhere to get their PR's merged smoothly;
 
@@ -32,7 +32,7 @@ Following are some good house keeping rules which every collaborator should adhe
 
 ### Run This Project
 Run following set of commands after cloning this repo off the GitHub link
-* `cd react-icon-collection`
+* `cd react-logo-collection`
 * `yarn` or `npm install`
 * `yarn start` or `npm start`
 * a localhost url on port 9001 will pop in your default browser
