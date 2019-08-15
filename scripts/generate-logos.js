@@ -39,4 +39,4 @@ export const LOGO_LIST = [
   fs.writeFileSync(logoListForStory, logoListOutput);
 };
 
-generate("bitcoin-grey", "./src/logos/__stories__/components/bitcoin-grey-list.ts");
+generate("bitcoin-color", "./src/logos/__stories__/components/bitcoin-color-list.ts");
