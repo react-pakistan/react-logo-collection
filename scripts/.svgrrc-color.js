@@ -5,11 +5,6 @@ module.exports = {
       {
         removeViewBox: false,
       },
-      {
-        removeAttrs: {
-          attrs: ["fill"],
-        },
-      },
     ],
   },
 };
