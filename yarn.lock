@@ -1143,10 +1143,10 @@
     react-lifecycles-compat "^3.0.4"
     warning "^3.0.0"
 
-"@react-pakistan/react-ui-collection@^1.0.51":
-  version "1.0.51"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-1.0.51.tgz#d2939115924414d5027fa78924b0019e519ee0cc"
-  integrity sha512-Sq3woRwTf0NPfd1rNDmP6b8IGz+VrJoYdEAUKhOZCs7pYXKUQLIqnQWdxtLWmyabFblC4RhzkpSyfnHOdsvOsg==
+"@react-pakistan/react-ui-collection@^1.0.52":
+  version "1.0.52"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-1.0.52.tgz#7c49e1978e006b8ba885012652fa38cab94d11c3"
+  integrity sha512-qQKw6lmYk7+gwehqM+6JwbIqsLTeJnYLh4p7rfhzMaN4CWhuAZPk/lRBdMKTDWYFikgeteqa/vSUBKfMcYgbyg==
   dependencies:
     react-toastify "^5.3.2"
     styled-flex-component "^3.0.0"
