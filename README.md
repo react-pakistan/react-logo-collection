@@ -1,4 +1,4 @@
-<img src="https://i.ibb.co/k8Y3RMh/React-Pakistan-Logo-01.jpg" alt="React Pakistan - React Logos Collection" width="100%" />
+<img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg" alt="React Pakistan - React Logo Collection" width="100%" />
 
 # Logos Library built upon React Storybook
 A generic to specific, Logos library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
