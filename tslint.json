@@ -5,8 +5,7 @@
   ],
   "linterOptions": {
     "exclude": [
-      "src/eCommerceV1UI/icons/*.tsx",
-      "src/icons/**/*.tsx"
+      "src/logos/**/*.tsx"
     ]
   },
   "defaultSeverity": "error",

@@ -19,7 +19,7 @@
     "start": "start-storybook -p 9001 -c .storybook",
     "build-storybook": "build-storybook -c .storybook -o .out",
     "deploy-storybook": "storybook-to-ghpages",
-    "generate-icons": "scripts/generate-icons.sh"
+    "generate-logos": "scripts/generate-logos.sh"
   },
   "pre-commit": [
     "lint",
@@ -40,7 +40,7 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/preset-react": "^7.0.0",
-    "@react-pakistan/react-ui-collection": "^1.0.51",
+    "@react-pakistan/react-ui-collection": "^1.0.52",
     "@storybook/addon-a11y": "^5.1.10",
     "@storybook/addon-actions": "^5.1.10",
     "@storybook/addon-backgrounds": "^5.1.10",
