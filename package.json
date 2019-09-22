@@ -22,8 +22,7 @@
     "generate-logos": "scripts/generate-logos.sh"
   },
   "pre-commit": [
-    "lint",
-    "test"
+    "lint"
   ],
   "repository": {
     "type": "git",
