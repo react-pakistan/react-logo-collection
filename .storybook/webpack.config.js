@@ -56,11 +56,19 @@ module.exports = {
               configFileName : "tsconfig.storybook.json",
               getCustomTransformers: () => ({ before: [
                 createStyledComponentsTransformer({
-                  getDisplayName: (filename, bindingName) => `${path.basename(filename)}__${bindingName}`,
+                  getDisplayName: (filename, bindingName) => `${bindingName}`,
                 }),
               ] }),
             },
           },
+        ],
+      },
+      {
+        test: /\.tsx?$/,
+        include: path.resolve(__dirname, "../src/an-intro"),
+        use: [
+          require.resolve("ts-loader"),
+          require.resolve("react-docgen-typescript-loader"),
         ],
       },
       {

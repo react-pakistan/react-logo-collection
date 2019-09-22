@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "noImplicitAny": true,
-    "strictNullChecks": true,
+    "noImplicitAny": false,
+    "strictNullChecks": false,
     "skipLibCheck": true,
     "noUnusedLocals": true,
     "jsx": "react",
@@ -11,8 +11,8 @@
     ],
     "esModuleInterop": true,
     "typeRoots": [
-      "node_modules/@types",
-    ],
+      "node_modules/@types"
+    ]
   },
   "include": [
     "./src/**/*.ts",
@@ -24,6 +24,6 @@
     "./jest",
     "./src/**/__tests__",
     "./.storybook",
-    "./src/**/__stories__",
+    "./src/**/__stories__"
   ]
 }
