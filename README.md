@@ -44,3 +44,9 @@ A generic, Commons library for React web apps & React Native apps, following mod
 <a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Icon Collection - NPM Package" width="20%" />
 </a>
+<a href="https://taimoormk.github.io/react-logo-collection" target="_blank">
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg" alt="React Pakistan - React Logo Collection" width="70%" />
+</a>
+<a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Logo Collection - NPM Package" width="20%" />
+</a>
