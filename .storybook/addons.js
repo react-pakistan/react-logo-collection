@@ -6,7 +6,6 @@ import "@storybook/addon-viewport/register";
 import "@storybook/addon-backgrounds/register";
 import "@storybook/addon-a11y/register";
 import "@storybook/addon-links/register";
-// import "storybook-readme/register";
-import registerWithPanelTitle from "storybook-readme/registerWithPanelTitle";
+import "./google-analytics/register";
 
-registerWithPanelTitle("Docs");
+window.STORYBOOK_GA_ID = "UA-148491671-1";
