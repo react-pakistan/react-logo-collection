@@ -1,7 +1,7 @@
 {
-  "name": "react-commons-collection",
+  "name": "@react-pakistan/react-logo-collection",
   "version": "1.0.0",
-  "description": "",
+  "description": "React Logo Collection built by React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
   "types": "index.d.tsx",
