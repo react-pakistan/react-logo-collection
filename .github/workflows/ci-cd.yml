@@ -1,4 +1,4 @@
-name: Node CI - lint, build, test
+name: Node CI - lint and build
 
 on: [push]
 
@@ -17,11 +17,10 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: npm install, lint, build and test 
+    - name: yarn, lint, and build 
       run: |
-        npm install
-        npm run lint
-        npm run build
-        npm run test
+        yarn
+        yarn lint
+        yarn build
       env:
         CI: true
