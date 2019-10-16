@@ -15,22 +15,14 @@ A generic, Commons library for React web apps & React Native apps, following mod
 <a href="https://www.buymeacoffee.com/60whp8FM3" target="_blank"><img src="https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/yellow_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
 
 ## Documentation of React Logo Components
-- [A](https://taimoormk.github.io/react-commons-collection/?path=/story/commons-component--a)
+- [LogoBitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/commons-logos--bitcoincolorlogos)
 ```
-  import { A } from '@react-pakistan/react-commons-collection/commons/a';
+  import { LogoBitcoinColor29 } from '@react-pakistan/react-logo-collection/logos/bitcoin-color';
 
-  <A
-    download=""
-    href=""
-    hreflang=""
-    media=""
-    referrerpolicy=""
-    rel=""
-    target="_blank"
-    type=""
-  >
-    Go to Google
-  </A>
+  <LogoBitcoinColor29
+    fontSize="32px"
+    color="#2E2E2E"
+  />
 ```
 
 # Other Libraries from ReactPakistan
@@ -51,4 +43,10 @@ A generic, Commons library for React web apps & React Native apps, following mod
 </a>
 <a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Icon Collection - NPM Package" width="20%" />
+</a>
+<a href="https://taimoormk.github.io/react-logo-collection" target="_blank">
+  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg" alt="React Pakistan - React Logo Collection" width="70%" />
+</a>
+<a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Logo Collection - NPM Package" width="20%" />
 </a>
