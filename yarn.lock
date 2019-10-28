@@ -1379,9 +1379,9 @@
     util-deprecate "^1.0.2"
 
 "@storybook/addon-docs@^5.2.1":
-  version "5.2.4"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-5.2.4.tgz#aac2b46854a07977952d7b7533de274e6633742f"
-  integrity sha512-rfzoQUseb3G1WanQckjH85OXJJXMigod/YEEqJv68vo7GVY5PdVkOISy9nSldjrnwH6ikT3pcfJKPuHWRKAx/A==
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-docs/-/addon-docs-5.2.5.tgz#2f73ce1ac6bd1c37e9624970b11ab56b1e8f7c1f"
+  integrity sha512-7xglolfiQln4aIuiUcPmZZGdlswl+L4OCDAy41oBTfmP10KnasD0Feoze3dXn9rzWBKMTnMFTF8MzlRBTae0jw==
   dependencies:
     "@babel/generator" "^7.4.0"
     "@babel/parser" "^7.4.2"
@@ -1389,16 +1389,16 @@
     "@mdx-js/loader" "^1.1.0"
     "@mdx-js/mdx" "^1.1.0"
     "@mdx-js/react" "^1.0.27"
-    "@storybook/addons" "5.2.4"
-    "@storybook/api" "5.2.4"
-    "@storybook/components" "5.2.4"
-    "@storybook/router" "5.2.4"
-    "@storybook/source-loader" "5.2.4"
-    "@storybook/theming" "5.2.4"
+    "@storybook/addons" "5.2.5"
+    "@storybook/api" "5.2.5"
+    "@storybook/components" "5.2.5"
+    "@storybook/router" "5.2.5"
+    "@storybook/source-loader" "5.2.5"
+    "@storybook/theming" "5.2.5"
     core-js "^3.0.1"
     global "^4.3.2"
     js-string-escape "^1.0.1"
-    lodash "^4.17.11"
+    lodash "^4.17.15"
     prop-types "^15.7.2"
 
 "@storybook/addon-google-analytics@^5.1.10":
@@ -1900,6 +1900,21 @@
   dependencies:
     "@storybook/addons" "5.2.4"
     "@storybook/router" "5.2.4"
+    core-js "^3.0.1"
+    estraverse "^4.2.0"
+    global "^4.3.2"
+    loader-utils "^1.2.3"
+    prettier "^1.16.4"
+    prop-types "^15.7.2"
+    regenerator-runtime "^0.12.1"
+
+"@storybook/source-loader@5.2.5":
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.2.5.tgz#8cb856aaaa47116f428bf7330a457e171d96c3fc"
+  integrity sha512-XPhV4UhJq2h5anQn7ETuHQd/c/qQ/7qKxffVlAMQim4aXGqTKdMe0jHoziG4nyj0hMxWGjqbwHw69fCYI4pCog==
+  dependencies:
+    "@storybook/addons" "5.2.5"
+    "@storybook/router" "5.2.5"
     core-js "^3.0.1"
     estraverse "^4.2.0"
     global "^4.3.2"
