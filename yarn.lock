@@ -1457,16 +1457,16 @@
     uuid "^3.3.2"
 
 "@storybook/addon-backgrounds@^5.1.10":
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-5.2.5.tgz#fbf2ff592dd8ce753916637d35c6aac71ac617de"
-  integrity sha512-t8ziHkYDQoUSFXVHwK3LZrWdMv7tHAjvXAkG/cARcOf7SaZtwZmKQwY4n/kr9rxTCRY3JHpooldrXdkYg/pepw==
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-backgrounds/-/addon-backgrounds-5.2.6.tgz#c35f009f2a831ee871bc143f1be1568df45cc01d"
+  integrity sha512-bEhRgYU7nV8w2rBEvPIgcRblrp6RP8DMFahJGjTNlIzGfQjge+C1gKN751ghE8UhZuf82tO2OE3rijDu4Kb9WA==
   dependencies:
-    "@storybook/addons" "5.2.5"
-    "@storybook/api" "5.2.5"
-    "@storybook/client-logger" "5.2.5"
-    "@storybook/components" "5.2.5"
-    "@storybook/core-events" "5.2.5"
-    "@storybook/theming" "5.2.5"
+    "@storybook/addons" "5.2.6"
+    "@storybook/api" "5.2.6"
+    "@storybook/client-logger" "5.2.6"
+    "@storybook/components" "5.2.6"
+    "@storybook/core-events" "5.2.6"
+    "@storybook/theming" "5.2.6"
     core-js "^3.0.1"
     memoizerific "^1.11.3"
     react "^16.8.3"
@@ -1803,14 +1803,14 @@
     react-textarea-autosize "^7.1.0"
     simplebar-react "^1.0.0-alpha.6"
 
-"@storybook/core-events@5.2.5", "@storybook/core-events@^5.0.6", "@storybook/core-events@^5.2.1":
+"@storybook/core-events@5.2.5":
   version "5.2.5"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.5.tgz#62881164a4a01aa99ff0691e70eaed2dd58e229e"
   integrity sha512-O5GM8XEBbYNbM6Z7a4H1bbnbO2cxQrXMhEwansC7a7YinQdkTPiuGxke3NiyK+7pLDh778kpQyjoCjXq6UfAoQ==
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/core-events@5.2.6":
+"@storybook/core-events@5.2.6", "@storybook/core-events@^5.0.6", "@storybook/core-events@^5.2.1":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.6.tgz#34c9aae256e7e5f4a565b81f1e77dda8bccc6752"
   integrity sha512-W8kLJ7tc0aAxs11CPUxUOCReocKL4MYGyjTg8qwk0USLzPUb/FUQWmhcm2ilFz6Nz8dXLcKrXdRVYTmiMsgAeg==
