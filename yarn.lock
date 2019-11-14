@@ -1496,12 +1496,12 @@
     prop-types "^15.7.2"
 
 "@storybook/addon-google-analytics@^5.1.10":
-  version "5.2.5"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-google-analytics/-/addon-google-analytics-5.2.5.tgz#9ea9d0a183a8a6570b364bb8a4674cffebff7dd7"
-  integrity sha512-4uFG+gxdzCSiP6j05xqT3zNCmn+4iu2EDRA1xEXpWns8wfgaMkTazWpPrf+sII9jvcgNuGvYA0/AG0mTuLqkGA==
+  version "5.2.6"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-google-analytics/-/addon-google-analytics-5.2.6.tgz#8d5ccd5cd5066f89fd61680d3ec4828f9dac8234"
+  integrity sha512-XJtgY8oqxUu6IuWJ/uA3w5FZCup5H4LnOeQ/f5oDdyqNoYDsH5swdPRlC4fggJ0MEbZA1obi/QFzodBBuhJX5w==
   dependencies:
-    "@storybook/addons" "5.2.5"
-    "@storybook/core-events" "5.2.5"
+    "@storybook/addons" "5.2.6"
+    "@storybook/core-events" "5.2.6"
     core-js "^3.0.1"
     global "^4.3.2"
     react-ga "^2.5.7"
