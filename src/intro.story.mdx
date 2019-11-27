@@ -8,7 +8,7 @@
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
-## React Icon Collection
+## React Logo Collection
 
 <div>
   <left>
@@ -25,34 +25,11 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
 
 A generic, SVG Logo library for React web apps & React Native apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
 
-## Install
-
-Add React Logo Collection to your project. 
-
-`yarn add @react-pakistan/react-logo-collection` or
-`npm install @react-pakistan/react-logo-collection`
-
-
-### **Use**
-
-Import SVG Reactified Logos you want into your component
-
-`import { LogoBitcoinColor29 } from ‘@react-pakistan/react-logo-collection/logos/bitcoin-color’;`
-
-and use them like so
-
-```
-  <LogoBitcoinColor29
-    fontSize="32px"
-    color="#2E2E2E"
-  />
-```
-
 ### **Other Libraries from ReactPakistan**
 <div>
   <left>
     <a href="https://taimoormk.github.io/react-commons-collection" target="_blank">
-      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg" alt="React Pakistan - React Commons Collection" width="70%" />
+      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg" alt="React Pakistan - React Commons Collection" width="40%" />
     </a>
   </left>
   <right style={{ paddingLeft: '10px' }}>
@@ -65,7 +42,7 @@ and use them like so
 <div>
   <left>
     <a href="https://taimoormk.github.io/react-ui-collection" target="_blank">
-      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg" alt="React Pakistan - React UI Collection" width="70%" />
+      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg" alt="React Pakistan - React UI Collection" width="40%" />
     </a>
   </left>
   <right style={{ paddingLeft: '10px' }}>
@@ -78,7 +55,7 @@ and use them like so
 <div>
   <left>
     <a href="https://taimoormk.github.io/react-icon-collection" target="_blank">
-      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg" alt="React Pakistan - React Icon Collection" width="70%" />
+      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg" alt="React Pakistan - React Icon Collection" width="40%" />
     </a>
   </left>
   <right style={{ paddingLeft: '10px' }}>
@@ -88,18 +65,41 @@ and use them like so
   </right>
 </div>
 
-<div>
-  <left>
-    <a href="https://taimoormk.github.io/react-logo-collection" target="_blank">
-      <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg" alt="React Pakistan - React Logo Collection" width="70%" />
-    </a>
-  </left>
-  <right style={{ paddingLeft: '10px' }}>
-    <a href="https://www.npmjs.com/package/@react-pakistan/react-logo-collection" target="_blank">
-      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Logo Collection - NPM Package" width="20%" />
-    </a>
-  </right>
-</div>
+## Install
+
+Add React Logo Collection to your project. 
+
+`yarn add @react-pakistan/react-logo-collection` or
+`npm install @react-pakistan/react-logo-collection`
+
+### **Styles**
+
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code.
+You could either use the default theme as shown below or wire your custom theme object instead.
+
+```javascript
+  import { ThemeProvider } from 'styled-components';
+  import { theme } from '@react-pakistan/react-commons-collection/theme';
+
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
+```
+
+### **Use**
+
+Import SVG Reactified Logos you want into your component
+
+`import { LogoBitcoinColor29 } from ‘@react-pakistan/react-logo-collection/logos/bitcoin-color’;`
+
+and use them like so
+
+```javascript
+  <LogoBitcoinColor29
+    fontSize="32px"
+    color="#2E2E2E"
+  />
+```
 
 ### **Buy me Coffee**
 Should you like these projects and would like to see more coming as well, please consider buying me a coffee.
