@@ -1556,15 +1556,15 @@
     util-deprecate "^1.0.2"
 
 "@storybook/addon-storysource@^5.2.6":
-  version "5.2.6"
-  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.2.6.tgz#5b42e07d44fbdd0a41018f26a575eee98ac52c5f"
-  integrity sha512-3cqixGHrX6oYcaOWRwHVgD9KlSlwjspNZs5FsyRcoh5Gm0M3kXFah0UWHYqGy/JxSA2uGg47bXVTRmkydvSvyQ==
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-storysource/-/addon-storysource-5.2.7.tgz#4c94b7f5c7514f444ef1f765d4d559692f0b3c07"
+  integrity sha512-9tF+dHEZgSbSEYCMsw9loPmbhPeN1/3dEdIpertB91JrTxOBkhfD4AXVS3GDgqah2l39tCwAbcw3P0jDzVWIyg==
   dependencies:
-    "@storybook/addons" "5.2.6"
-    "@storybook/components" "5.2.6"
-    "@storybook/router" "5.2.6"
-    "@storybook/source-loader" "5.2.6"
-    "@storybook/theming" "5.2.6"
+    "@storybook/addons" "5.2.7"
+    "@storybook/components" "5.2.7"
+    "@storybook/router" "5.2.7"
+    "@storybook/source-loader" "5.2.7"
+    "@storybook/theming" "5.2.7"
     core-js "^3.0.1"
     estraverse "^4.2.0"
     loader-utils "^1.2.3"
@@ -1604,6 +1604,19 @@
     global "^4.3.2"
     util-deprecate "^1.0.2"
 
+"@storybook/addons@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/addons/-/addons-5.2.7.tgz#a868ca0a209aefa8a17718b58327dd3ff37f2d76"
+  integrity sha512-eWRSvs5/28KhU28iWjClfOryRN1IuycFcWEJrRtMOXyf44TTyzEC5PbH35eGh33MpWVJYM+8CUJQqNOxxDVjBw==
+  dependencies:
+    "@storybook/api" "5.2.7"
+    "@storybook/channels" "5.2.7"
+    "@storybook/client-logger" "5.2.7"
+    "@storybook/core-events" "5.2.7"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    util-deprecate "^1.0.2"
+
 "@storybook/api@5.2.6":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/api/-/api-5.2.6.tgz#43d3c20b90e585e6c94b36e29845d39704ae2135"
@@ -1614,6 +1627,29 @@
     "@storybook/core-events" "5.2.6"
     "@storybook/router" "5.2.6"
     "@storybook/theming" "5.2.6"
+    core-js "^3.0.1"
+    fast-deep-equal "^2.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    memoizerific "^1.11.3"
+    prop-types "^15.6.2"
+    react "^16.8.3"
+    semver "^6.0.0"
+    shallow-equal "^1.1.0"
+    store2 "^2.7.1"
+    telejson "^3.0.2"
+    util-deprecate "^1.0.2"
+
+"@storybook/api@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/api/-/api-5.2.7.tgz#f0c04c975b2c7359ce67a581a178cf1c52ffc1cd"
+  integrity sha512-d0tu8GZTCBQqEr2P75mRrDw6t2LMPVcLETo7Pc02LkOjV5mZ9Q6rObAuUAM/flBQMbv24ioNa9HPk2ilspf/iQ==
+  dependencies:
+    "@storybook/channels" "5.2.7"
+    "@storybook/client-logger" "5.2.7"
+    "@storybook/core-events" "5.2.7"
+    "@storybook/router" "5.2.7"
+    "@storybook/theming" "5.2.7"
     core-js "^3.0.1"
     fast-deep-equal "^2.0.1"
     global "^4.3.2"
@@ -1645,6 +1681,13 @@
   dependencies:
     core-js "^3.0.1"
 
+"@storybook/channels@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/channels/-/channels-5.2.7.tgz#7cd55f1a25c68588795ddc6cbe5bb53ee8f8bb69"
+  integrity sha512-q3+fxc6aBU60XaihVJ2P2xrVOiCgimTTEzt1KkRr5ZzD27m4LnF0iDaVnJSlEJv7PpaqqewUb6lHhsQLjfWKMg==
+  dependencies:
+    core-js "^3.0.1"
+
 "@storybook/client-api@5.2.6":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/client-api/-/client-api-5.2.6.tgz#5760cb4302d82ce9210a63f3f55b1e05f04759c1"
@@ -1673,7 +1716,14 @@
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/components@5.2.6", "@storybook/components@^5.0.6":
+"@storybook/client-logger@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-5.2.7.tgz#aa8bdcfc0a981d8505e60ec1548436eabd28e64e"
+  integrity sha512-gomUNoc5bBl+YEJhrHMr5anmu4k8/AYmF5omp5OaWaF74HfH/a33L8p4L7yHdFWK7zpqlfi6SrBl3gptzvnljA==
+  dependencies:
+    core-js "^3.0.1"
+
+"@storybook/components@5.2.6":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/components/-/components-5.2.6.tgz#cddb60227720aea7cae34fe782d0370bcdbd4005"
   integrity sha512-C7OS90bZ1ZvxlWUZ3B2MPFFggqAtUo7X8DqqS3IwsuDUiK9dD/KS0MwPgOuFDnOTW1R5XqmQd/ylt53w3s/U5g==
@@ -1698,10 +1748,42 @@
     react-textarea-autosize "^7.1.0"
     simplebar-react "^1.0.0-alpha.6"
 
+"@storybook/components@5.2.7", "@storybook/components@^5.0.6":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/components/-/components-5.2.7.tgz#810327a517dc839293ef1d684f960a548e257689"
+  integrity sha512-BRmfSMXqiDDWwgYKTyq0XseCYhETvlBzljAqIeI+xuSPh4FzRY1uoXrD3yJJo/jtEfP+vtEV98/6g3pmZf3pBw==
+  dependencies:
+    "@storybook/client-logger" "5.2.7"
+    "@storybook/theming" "5.2.7"
+    "@types/react-syntax-highlighter" "10.1.0"
+    "@types/react-textarea-autosize" "^4.3.3"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    markdown-to-jsx "^6.9.1"
+    memoizerific "^1.11.3"
+    polished "^3.3.1"
+    popper.js "^1.14.7"
+    prop-types "^15.7.2"
+    react "^16.8.3"
+    react-dom "^16.8.3"
+    react-focus-lock "^1.18.3"
+    react-helmet-async "^1.0.2"
+    react-popper-tooltip "^2.8.3"
+    react-syntax-highlighter "^8.0.1"
+    react-textarea-autosize "^7.1.0"
+    simplebar-react "^1.0.0-alpha.6"
+
 "@storybook/core-events@5.2.6", "@storybook/core-events@^5.0.6", "@storybook/core-events@^5.2.6":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.6.tgz#34c9aae256e7e5f4a565b81f1e77dda8bccc6752"
   integrity sha512-W8kLJ7tc0aAxs11CPUxUOCReocKL4MYGyjTg8qwk0USLzPUb/FUQWmhcm2ilFz6Nz8dXLcKrXdRVYTmiMsgAeg==
+  dependencies:
+    core-js "^3.0.1"
+
+"@storybook/core-events@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.2.7.tgz#624a4ea04f62e7002871b4d13892970955859401"
+  integrity sha512-DZG/CdLhINmnSysBEFTMyUPiXGuhtsxZA+v2yO3X09IHai/LWXW6Diyiz+h81m4z2w/SYQeoD96wZ9wNbyaYwA==
   dependencies:
     core-js "^3.0.1"
 
@@ -1831,6 +1913,19 @@
     memoizerific "^1.11.3"
     qs "^6.6.0"
 
+"@storybook/router@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/router/-/router-5.2.7.tgz#4c9e48667a1e23a86a9fdd5810722e73b12f35f5"
+  integrity sha512-6xXAjc+4OtLXEGFacFKHpUDooZlRODwLSGYL0UDuPMpFwBDPZvuIaNtG18m3yhAgjWqoH7kS/bwKwtosno9/xg==
+  dependencies:
+    "@reach/router" "^1.2.1"
+    "@types/reach__router" "^1.2.3"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    lodash "^4.17.15"
+    memoizerific "^1.11.3"
+    qs "^6.6.0"
+
 "@storybook/source-loader@5.2.6":
   version "5.2.6"
   resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.2.6.tgz#06e6b5e93ea4c635c7d05c517ad8711de9030ba3"
@@ -1838,6 +1933,21 @@
   dependencies:
     "@storybook/addons" "5.2.6"
     "@storybook/router" "5.2.6"
+    core-js "^3.0.1"
+    estraverse "^4.2.0"
+    global "^4.3.2"
+    loader-utils "^1.2.3"
+    prettier "^1.16.4"
+    prop-types "^15.7.2"
+    regenerator-runtime "^0.12.1"
+
+"@storybook/source-loader@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/source-loader/-/source-loader-5.2.7.tgz#680e610d4682a0c427a86297d5edea42b8fb62f9"
+  integrity sha512-N/nvrCFwjU3s6uXO78TZVrmMEMk1OfnXwl0OFA1Dl115KDtNFDxYPOqSewy5JF+3GnaRfMow29pYeOwJaiUb8A==
+  dependencies:
+    "@storybook/addons" "5.2.7"
+    "@storybook/router" "5.2.7"
     core-js "^3.0.1"
     estraverse "^4.2.0"
     global "^4.3.2"
@@ -1865,6 +1975,24 @@
     "@emotion/core" "^10.0.14"
     "@emotion/styled" "^10.0.14"
     "@storybook/client-logger" "5.2.6"
+    common-tags "^1.8.0"
+    core-js "^3.0.1"
+    deep-object-diff "^1.1.0"
+    emotion-theming "^10.0.14"
+    global "^4.3.2"
+    memoizerific "^1.11.3"
+    polished "^3.3.1"
+    prop-types "^15.7.2"
+    resolve-from "^5.0.0"
+
+"@storybook/theming@5.2.7":
+  version "5.2.7"
+  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-5.2.7.tgz#8db0f7e1b2c4c17befbf4bcd7c60f75ff4369105"
+  integrity sha512-MroOG2lUB8dPZu8ZKwAuP8NV4ozG/8FpkWHZ/1HtBAAtGCvVNrXuSKIvI/pabfJaJvms+1uh95K7riY8t7CUWw==
+  dependencies:
+    "@emotion/core" "^10.0.14"
+    "@emotion/styled" "^10.0.14"
+    "@storybook/client-logger" "5.2.7"
     common-tags "^1.8.0"
     core-js "^3.0.1"
     deep-object-diff "^1.1.0"
