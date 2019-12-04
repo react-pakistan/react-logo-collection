@@ -1333,18 +1333,18 @@
     warning "^3.0.0"
 
 "@react-pakistan/react-ui-collection@^2.1.0":
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.0.tgz#aa020c84d41377aa5fab6700a40ef57c04962bd4"
-  integrity sha512-MRmMiQ1MYV8xjclpP9umqztjYmKxMrNGNzQQBIQJBWkmSBf6iYDIWQ1ezjObsiRRQh3y+NEoJydV67KqjnCyQQ==
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.5.tgz#28a0ebaf870d47094260344d62d116a98e6697ac"
+  integrity sha512-vr/d6+/8HBhogo8pVtPao/tW37wqZa6KDXt2LpViH8WXtxDbR+pOy12uwZNSP2aEs5Dl0onUSrWDpmBXWrBxQw==
   dependencies:
     react-share "^3.0.1"
-    react-toastify "^5.3.2"
+    react-toastify "^5.4.1"
     semantic-ui-css "^2.4.1"
     semantic-ui-react "^0.88.1"
-    styled-components "^4.4.0"
+    styled-components "^4.4.1"
     styled-flex-component "^3.0.0"
-    ts-loader "^6.2.0"
-    utility-types "^3.7.0"
+    ts-loader "^6.2.1"
+    utility-types "^3.10.0"
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
@@ -10561,7 +10561,7 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-toastify@^5.3.2:
+react-toastify@^5.4.1:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-5.4.1.tgz#27533ca33753631016c44122934c7b6548352fcb"
   integrity sha512-24EwkWrj47Id/HGjYfdcntaZpAQ3J5NX31SnGRD66hM/KvPKVJzPiDBPZ+/RZ3SvNkbNWfHpPKFWzenJjC26hg==
@@ -12053,7 +12053,7 @@ style-to-object@0.2.3, style-to-object@^0.2.1:
   dependencies:
     inline-style-parser "0.1.1"
 
-styled-components@^4.3.2, styled-components@^4.4.0:
+styled-components@^4.3.2, styled-components@^4.4.1:
   version "4.4.1"
   resolved "https://registry.yarnpkg.com/styled-components/-/styled-components-4.4.1.tgz#e0631e889f01db67df4de576fedaca463f05c2f2"
   integrity sha512-RNqj14kYzw++6Sr38n7197xG33ipEOktGElty4I70IKzQF1jzaD1U4xQ+Ny/i03UUhHlC5NWEO+d8olRCDji6g==
@@ -12531,7 +12531,7 @@ ts-jest@^24.2.0:
     semver "^5.5"
     yargs-parser "10.x"
 
-ts-loader@^6.2.0, ts-loader@^6.2.1:
+ts-loader@^6.2.1:
   version "6.2.1"
   resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-6.2.1.tgz#67939d5772e8a8c6bdaf6277ca023a4812da02ef"
   integrity sha512-Dd9FekWuABGgjE1g0TlQJ+4dFUfYGbYcs52/HQObE0ZmUNjQlmLAS7xXsSzy23AMaMwipsx5sNHvoEpT2CZq1g==
@@ -12987,7 +12987,7 @@ utila@^0.4.0, utila@~0.4:
   resolved "https://registry.yarnpkg.com/utila/-/utila-0.4.0.tgz#8a16a05d445657a3aea5eecc5b12a4fa5379772c"
   integrity sha1-ihagXURWV6Oupe7MWxKk+lN5dyw=
 
-utility-types@^3.7.0:
+utility-types@^3.10.0:
   version "3.10.0"
   resolved "https://registry.yarnpkg.com/utility-types/-/utility-types-3.10.0.tgz#ea4148f9a741015f05ed74fd615e1d20e6bed82b"
   integrity sha512-O11mqxmi7wMKCo6HKFt5AhO4BwY3VV68YU07tgxfz8zJTIxr4BpsezN49Ffwy9j3ZpwwJp4fkRwjRzq3uWE6Rg==
