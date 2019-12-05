@@ -1333,9 +1333,9 @@
     warning "^3.0.0"
 
 "@react-pakistan/react-ui-collection@^2.1.0":
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.5.tgz#28a0ebaf870d47094260344d62d116a98e6697ac"
-  integrity sha512-vr/d6+/8HBhogo8pVtPao/tW37wqZa6KDXt2LpViH8WXtxDbR+pOy12uwZNSP2aEs5Dl0onUSrWDpmBXWrBxQw==
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.6.tgz#9bc7c8257ae137b0afd5cd295b072c442fb343ef"
+  integrity sha512-7+ZHUAD5KL2vVKAarDQnXVeUTJHMXUcYOvGIjiCGMf6yrAaB2zujwhQIBrdHkE+OIzvpaeiZuJZEk1Q04bWX4w==
   dependencies:
     react-share "^3.0.1"
     react-toastify "^5.4.1"
