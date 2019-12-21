@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: ${{ matrix.node-version }}
-    - name: yarn, lint, build, and test 
+    - name: yarn, lint, and build 
       run: |
         yarn
         yarn lint
