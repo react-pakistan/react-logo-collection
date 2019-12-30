@@ -1983,14 +1983,14 @@
     "@svgr/babel-plugin-transform-svg-component" "^5.0.1"
 
 "@svgr/cli@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@svgr/cli/-/cli-5.0.0.tgz#91329457fc4011d76e3bd514dbbb86fec9d6f247"
-  integrity sha512-rySLngKFA6KIpx3yDxsW/qQyclUnIRw2fzivS5ajloC4orL7Tm7QY3FsZ76co+kUNKrXOxu2ebZsXzcG1ZkcfA==
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@svgr/cli/-/cli-5.0.1.tgz#8029b6ad2caaeca71175d30ac93688e411f7bb68"
+  integrity sha512-Bbp6IdOQEz3Ocvw47iqPNsbRlIQzWfzuxiDvOk/YgtD30i3F45gPy2CGIw2MkCGasb/l1d7fqthywfPSpF14kg==
   dependencies:
-    "@svgr/core" "^5.0.0"
-    "@svgr/plugin-jsx" "^5.0.0"
-    "@svgr/plugin-prettier" "^5.0.0"
-    "@svgr/plugin-svgo" "^5.0.0"
+    "@svgr/core" "^5.0.1"
+    "@svgr/plugin-jsx" "^5.0.1"
+    "@svgr/plugin-prettier" "^5.0.1"
+    "@svgr/plugin-svgo" "^5.0.1"
     camelcase "^5.3.1"
     chalk "^3.0.0"
     commander "^4.0.1"
@@ -2050,10 +2050,10 @@
     "@svgr/hast-util-to-babel-ast" "^5.0.1"
     svg-parser "^2.0.2"
 
-"@svgr/plugin-prettier@^5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@svgr/plugin-prettier/-/plugin-prettier-5.0.0.tgz#e9b52cec7d3e65ef8d429bf329f48f2a05029ace"
-  integrity sha512-wp222H56+oB5PeXKOChE4QjA3alHxcjkji86PPuS1I1JNGxRhF2a1jjOdhuznCNjrI+5kK5PYvTz6k3KqX0Qjg==
+"@svgr/plugin-prettier@^5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@svgr/plugin-prettier/-/plugin-prettier-5.0.1.tgz#4522e5d457c1b893b6ed19094ce9c95c7506b737"
+  integrity sha512-d74rQ7RQZ8bFsbgF9fGaWdMYkQtZK6NBbTqNfHTtqpvjjDG4+GKLFiXr0o8axwUcMoP2koTntCA7kxI4M6MvKg==
   dependencies:
     merge-deep "^3.0.2"
     prettier "^1.17.1"
