@@ -1289,16 +1289,16 @@
     warning "^3.0.0"
 
 "@react-pakistan/react-ui-collection@^2.1.12":
-  version "2.1.12"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.12.tgz#440930af3502a22f03ee8976a9d960b1a59bbf41"
-  integrity sha512-zW/1L2lL/cV0lsuKw1MRQHFdHM3KiS2G0DZb1pNG1p1vn140AVB7477gLkPx7fent5kR/SftM9a8LlXFXRSaGQ==
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.13.tgz#07b60a98dfe17d8b9c9052c0fde299ff1950156c"
+  integrity sha512-Zv/qQvLOk7J9WRfw2mGPYnVZwBl36bpfuZx21nk7izBH/xEh/Nib0tEerCp563BC78gYFm8JGnA/4DU+4asiWg==
   dependencies:
-    react-awesome-slider "^2.2.1"
+    react-awesome-slider "^2.4.0"
     react-share "^3.0.1"
-    react-syntax-highlighter "^11.0.2"
-    react-toastify "^5.4.1"
+    react-syntax-highlighter "^12.2.1"
+    react-toastify "^5.5.0"
     semantic-ui-css "^2.4.1"
-    semantic-ui-react "^0.88.1"
+    semantic-ui-react "^0.88.2"
     styled-components "^4.4.1"
     styled-flex-component "^3.0.0"
     ts-loader "^6.2.1"
@@ -2007,7 +2007,7 @@
     camelcase "^5.3.1"
     cosmiconfig "^5.2.1"
 
-"@svgr/core@^5.0.0", "@svgr/core@^5.0.1":
+"@svgr/core@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@svgr/core/-/core-5.0.1.tgz#b7ec46665de21248b650fe94a2325a30b25569a9"
   integrity sha512-F/HXJpKbN6Cab31ngiSFiUXYV9y+yiJaDaOZuc7Yqzc19+ncIrM+wSKoytjwcwc+Haj8gvEHsPqRX9L4yM1ftA==
@@ -2040,7 +2040,7 @@
     "@svgr/hast-util-to-babel-ast" "^4.3.2"
     svg-parser "^2.0.0"
 
-"@svgr/plugin-jsx@^5.0.0", "@svgr/plugin-jsx@^5.0.1":
+"@svgr/plugin-jsx@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@svgr/plugin-jsx/-/plugin-jsx-5.0.1.tgz#a60b20983bef86fc021554f365b88d88c45300ea"
   integrity sha512-9mEinzosJshc/VdLqVkoBZQgs2d+ASbL61sX/2XCxcJ+/81KXdZcxmxSycJN37BvlM7F5fuj2ZF7IZwZ7ZOKaQ==
@@ -2067,7 +2067,7 @@
     merge-deep "^3.0.2"
     svgo "^1.2.2"
 
-"@svgr/plugin-svgo@^5.0.0", "@svgr/plugin-svgo@^5.0.1":
+"@svgr/plugin-svgo@^5.0.1":
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@svgr/plugin-svgo/-/plugin-svgo-5.0.1.tgz#37cd74b7c337efbed9e29ee8b36944b4469189b6"
   integrity sha512-h/V30j1swWANLV1mB0w+1YYZ0U0CnWm721xyUKVHJrvMe4wl5XronZdvVAD2hhQf9+JgaQARrRJ0Vg1Dxi+SFg==
@@ -6450,10 +6450,10 @@ highlight.js@~9.12.0:
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.12.0.tgz#e6d9dbe57cbefe60751f02af336195870c90c01e"
   integrity sha1-5tnb5Xy+/mB1HwKvM2GVhwyQwB4=
 
-highlight.js@~9.13.0:
-  version "9.13.1"
-  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.13.1.tgz#054586d53a6863311168488a0f58d6c505ce641e"
-  integrity sha512-Sc28JNQNDzaH6PORtRLMvif9RSn1mYuOoX3omVjnb0+HbpPygU2ALBI0R/wsiqCb4/fcp07Gdo8g+fhtFrQl6A==
+highlight.js@~9.15.0, highlight.js@~9.15.1:
+  version "9.15.10"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.15.10.tgz#7b18ed75c90348c045eef9ed08ca1319a2219ad2"
+  integrity sha512-RoV7OkQm0T3os3Dd2VHLNMoaoDVx77Wygln3n9l5YV172XonWG6rgQD3XnF/BuFFZw9A0TJgmMSO8FEWQgvcXw==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -8357,13 +8357,13 @@ lowercase-keys@^1.0.0:
   resolved "https://registry.yarnpkg.com/lowercase-keys/-/lowercase-keys-1.0.1.tgz#6f9e30b47084d971a7c820ff15a6c5167b74c26f"
   integrity sha512-G2Lj61tXDnVFFOi8VZds+SoQjtQC3dgokKdDG2mTm1tx4m50NUHBOZSBwQQHyy0V12A0JTG4icfZQH+xPyh8VA==
 
-lowlight@~1.11.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.11.0.tgz#1304d83005126d4e8b1dc0f07981e9b689ec2efc"
-  integrity sha512-xrGGN6XLL7MbTMdPD6NfWPwY43SNkjf/d0mecSx/CW36fUZTjRHEq0/Cdug3TWKtRXLWi7iMl1eP0olYxj/a4A==
+lowlight@1.12.1:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/lowlight/-/lowlight-1.12.1.tgz#014acf8dd73a370e02ff1cc61debcde3bb1681eb"
+  integrity sha512-OqaVxMGIESnawn+TU/QMV5BJLbUghUfjDWPAtFqDYDmDtr4FnB+op8xM+pR7nKlauHNUHXGt0VgWatFB8voS5w==
   dependencies:
     fault "^1.0.2"
-    highlight.js "~9.13.0"
+    highlight.js "~9.15.0"
 
 lowlight@~1.9.1:
   version "1.9.2"
@@ -10338,7 +10338,7 @@ react-addons-create-fragment@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.0"
 
-react-awesome-slider@^2.2.1:
+react-awesome-slider@^2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/react-awesome-slider/-/react-awesome-slider-2.4.0.tgz#d05165fd5c206db8c6c128fc6e256a066763184f"
   integrity sha512-jzMI2CSlHsVKjT36YDpybsLw6pxY/qXVDzJtf/QNotyUM5RyWMfuPjDJMu0OqjZK+gnmOZ3GhzKS4s/vxcWAkA==
@@ -10584,14 +10584,14 @@ react-sizeme@^2.5.2, react-sizeme@^2.6.7:
     shallowequal "^1.1.0"
     throttle-debounce "^2.1.0"
 
-react-syntax-highlighter@^11.0.2:
-  version "11.0.2"
-  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-11.0.2.tgz#4e3f376e752b20d2f54e4c55652fd663149e4029"
-  integrity sha512-kqmpM2OH5OodInbEADKARwccwSQWBfZi0970l5Jhp4h39q9Q65C4frNcnd6uHE5pR00W8pOWj9HDRntj2G4Rww==
+react-syntax-highlighter@^12.2.1:
+  version "12.2.1"
+  resolved "https://registry.yarnpkg.com/react-syntax-highlighter/-/react-syntax-highlighter-12.2.1.tgz#14d78352da1c1c3f93c6698b70ec7c706b83493e"
+  integrity sha512-CTsp0ZWijwKRYFg9xhkWD4DSpQqE4vb2NKVMdPAkomnILSmsNBHE0n5GuI5zB+PU3ySVvXvdt9jo+ViD9XibCA==
   dependencies:
     "@babel/runtime" "^7.3.1"
-    highlight.js "~9.13.0"
-    lowlight "~1.11.0"
+    highlight.js "~9.15.1"
+    lowlight "1.12.1"
     prismjs "^1.8.4"
     refractor "^2.4.1"
 
@@ -10624,10 +10624,10 @@ react-textarea-autosize@^7.1.0:
     "@babel/runtime" "^7.1.2"
     prop-types "^15.6.0"
 
-react-toastify@^5.4.1:
-  version "5.4.1"
-  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-5.4.1.tgz#27533ca33753631016c44122934c7b6548352fcb"
-  integrity sha512-24EwkWrj47Id/HGjYfdcntaZpAQ3J5NX31SnGRD66hM/KvPKVJzPiDBPZ+/RZ3SvNkbNWfHpPKFWzenJjC26hg==
+react-toastify@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/react-toastify/-/react-toastify-5.5.0.tgz#f55de44f6b5e3ce3b13b69e5bb4427f2c9404822"
+  integrity sha512-jsVme7jALIFGRyQsri/g4YTsRuaaGI70T6/ikjwZMB4mwTZaCWqj5NqxhGrRStKlJc5npXKKvKeqTiRGQl78LQ==
   dependencies:
     "@babel/runtime" "^7.4.2"
     classnames "^2.2.6"
@@ -11340,7 +11340,7 @@ semantic-ui-css@^2.4.1:
   dependencies:
     jquery x.*
 
-semantic-ui-react@^0.88.1:
+semantic-ui-react@^0.88.2:
   version "0.88.2"
   resolved "https://registry.yarnpkg.com/semantic-ui-react/-/semantic-ui-react-0.88.2.tgz#3d4b54f8b799769b412435c8531475fd34aa4149"
   integrity sha512-+02kN2z8PuA/cMdvDUsHhbJmBzxxgOXVHMFr9XK7zGb0wkW9A6OPQMFokWz7ozlVtKjN6r7zsb+Qvjk/qq1OWw==
