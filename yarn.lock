@@ -1289,12 +1289,12 @@
     warning "^3.0.0"
 
 "@react-pakistan/react-ui-collection@^2.1.12":
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.13.tgz#07b60a98dfe17d8b9c9052c0fde299ff1950156c"
-  integrity sha512-Zv/qQvLOk7J9WRfw2mGPYnVZwBl36bpfuZx21nk7izBH/xEh/Nib0tEerCp563BC78gYFm8JGnA/4DU+4asiWg==
+  version "2.1.14"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-ui-collection/-/react-ui-collection-2.1.14.tgz#a0f390da35b04b8d10e5a8d352cb5b8fe957f079"
+  integrity sha512-cl/f9fUNmBxe7se2wyF73lvf9InoDeQYkQivLRfsVKlJPf8dKTF0FdapKiid+OWw0Kak7GOv71aeuv3+tcpBRQ==
   dependencies:
-    react-awesome-slider "^2.4.0"
-    react-share "^3.0.1"
+    react-awesome-slider "^3.0.2"
+    react-share "^4.0.1"
     react-syntax-highlighter "^12.2.1"
     react-toastify "^5.5.0"
     semantic-ui-css "^2.4.1"
@@ -10338,10 +10338,10 @@ react-addons-create-fragment@^15.6.2:
     loose-envify "^1.3.1"
     object-assign "^4.1.0"
 
-react-awesome-slider@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/react-awesome-slider/-/react-awesome-slider-2.4.0.tgz#d05165fd5c206db8c6c128fc6e256a066763184f"
-  integrity sha512-jzMI2CSlHsVKjT36YDpybsLw6pxY/qXVDzJtf/QNotyUM5RyWMfuPjDJMu0OqjZK+gnmOZ3GhzKS4s/vxcWAkA==
+react-awesome-slider@^3.0.2:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/react-awesome-slider/-/react-awesome-slider-3.0.3.tgz#c03d5aad94dd2412f32aa4114210c6900bea2783"
+  integrity sha512-avS1hU0A+hLw5Vv/VYARZcVcNKayKdBOCEZthM+ulrE+eMU5aGoEIU2lk+hc7LWNS1XfcRFyuQJ+KF46TFvf3A==
   dependencies:
     web-animation-club "^0.6.0"
 
@@ -10564,15 +10564,13 @@ react-select@^3.0.0:
     react-input-autosize "^2.2.2"
     react-transition-group "^2.2.1"
 
-react-share@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/react-share/-/react-share-3.0.1.tgz#be9dc3f80059c4fed33542472f4e7425bb3a76cb"
-  integrity sha512-xo4zjYP78h6zrBN5rlC06bb877js7216KFeZELAZP6sYxVoqmU27ChrfnpKUCL9H8F5PwYXh6DLNdAp+0E17GA==
+react-share@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/react-share/-/react-share-4.0.1.tgz#6a291552185178e4b980936546c8d13cf2e67c82"
+  integrity sha512-01Bpres5m74gaz7+scWSHZMCQftuZoOgi7v2fyAC71fC26wMZkQKQUGyx7cgLaDVyizpfj5D9IMfdeqiskDYRA==
   dependencies:
-    babel-runtime "^6.26.0"
     classnames "^2.2.5"
     jsonp "^0.2.1"
-    prop-types "^15.5.8"
 
 react-sizeme@^2.5.2, react-sizeme@^2.6.7:
   version "2.6.10"
