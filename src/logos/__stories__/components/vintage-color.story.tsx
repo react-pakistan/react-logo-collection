@@ -41,6 +41,6 @@ export const AllIcons = () : JSX.Element => (
   </div>
 );
 
-const stories = storiesOf('commons/Logos', module);
+const stories = storiesOf('Logos', module);
 
 stories.add('VintageColorLogos', () => <AllIcons />);
