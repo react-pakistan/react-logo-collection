@@ -1,4 +1,4 @@
-## React UI Collection
+## React Logo Collection
 
 Thank you for contributing! Please take a moment to review our [**contributing guidelines**](https://github.com/Taimoormk/react-logo-collection/blob/dev/CONTRIBUTING.md)
 to make the process easy and effective for everyone involved.
