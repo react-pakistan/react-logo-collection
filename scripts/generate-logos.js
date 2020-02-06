@@ -40,4 +40,5 @@ export const LOGO_LIST = [
 };
 
 generate("bitcoin-color", "./src/logos/__stories__/components/bitcoin-color-list.ts");
+generate("misc-color", "./src/logos/__stories__/components/misc-color-list.ts");
 generate("vintage-color", "./src/logos/__stories__/components/vintage-color-list.ts");
