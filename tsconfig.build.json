@@ -2,7 +2,7 @@
   "compilerOptions": {
     "outDir": "./lib",
     "target": "es5",
-    "module": "esnext",
+    "module": "commonjs",
     "noImplicitAny": true,
     "strictNullChecks": true,
     "noUnusedLocals": true,
