@@ -1,7 +1,7 @@
 {
-  "name": "@react-pakistan/react-logo-collection",
+  "name": "@taimoormk/react-logo-collection",
   "version": "1.0.0",
-  "description": "React Logo Collection built by React StoryBook",
+  "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
   "types": "index.d.tsx",
@@ -25,6 +25,9 @@
   "pre-commit": [
     "lint"
   ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Taimoormk/react-commons-collection.git"
@@ -40,7 +43,6 @@
     "@babel/core": "^7.8.4",
     "@babel/preset-env": "^7.8.4",
     "@babel/preset-react": "^7.8.3",
-    "@react-pakistan/react-ui-collection": "^2.2.0",
     "@storybook/addon-a11y": "^5.3.12",
     "@storybook/addon-actions": "^5.3.12",
     "@storybook/addon-backgrounds": "^5.3.12",
