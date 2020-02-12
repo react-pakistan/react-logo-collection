@@ -99,7 +99,7 @@
     "typescript": "^3.7.5",
     "typescript-plugin-styled-components": "^1.4.4",
     "webpack": "^4.41.5",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"
   },
   "peerDependencies": {
