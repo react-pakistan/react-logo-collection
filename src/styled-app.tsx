@@ -2,8 +2,7 @@
 
 import * as React from 'react';
 import * as styledComponents from 'styled-components';
-
-import { theme, ITheme } from './theme';
+import { theme, ITheme } from '@taimoormk/react-commons-collection/theme';
 
 // https://www.styled-components.com/docs/api#define-a-theme-interface
 const {
@@ -23,7 +22,7 @@ export const StyledApp = styled.div`
   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
   width: 100%;
   display: inline-block;
-  font-family: ${props => props.theme.fontFamily};
+  font-family: ${props => props.theme.typography.fontFamily};
   *,
   *::before,
   *::after {
