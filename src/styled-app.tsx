@@ -2,7 +2,8 @@
 
 import * as React from 'react';
 import * as styledComponents from 'styled-components';
-import { theme, ITheme } from '@taimoormk/react-commons-collection/theme';
+import { ITheme } from '@taimoormk/react-commons-collection';
+import { logoTheme } from './theme';
 
 // https://www.styled-components.com/docs/api#define-a-theme-interface
 const {
@@ -31,7 +32,7 @@ export const StyledApp = styled.div`
 `;
 
 export const StyledStory = ({ children } : { children : React.ReactNode }) => (
-  <ThemeProvider theme={theme}>
+  <ThemeProvider theme={logoTheme}>
     <StyledApp>{children}</StyledApp>
   </ThemeProvider>
 );
