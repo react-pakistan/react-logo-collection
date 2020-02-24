@@ -58,7 +58,7 @@
     "@storybook/react": "^5.3.13",
     "@storybook/storybook-deployer": "^2.8.1",
     "@svgr/cli": "^5.1.0",
-    "@svgr/webpack": "^5.1.0",
+    "@svgr/webpack": "^5.2.0",
     "@taimoormk/react-commons-collection": "^1.0.8",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
