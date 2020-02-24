@@ -57,7 +57,7 @@
     "@storybook/core-events": "^5.3.13",
     "@storybook/react": "^5.3.13",
     "@storybook/storybook-deployer": "^2.8.1",
-    "@svgr/cli": "^5.1.0",
+    "@svgr/cli": "^5.2.0",
     "@svgr/webpack": "^5.1.0",
     "@taimoormk/react-commons-collection": "^1.0.8",
     "@types/enzyme": "^3.10.5",
