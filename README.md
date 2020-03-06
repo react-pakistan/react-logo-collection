@@ -88,30 +88,6 @@ You could either use the default theme as shown below or wire your custom theme 
 ```
 
 # Other Libraries from ReactPakistan
-<a href="https://taimoormk.github.io/react-commons-collection" target="_blank">
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg" alt="React Pakistan - React Commons Collection" width="70%" />
-</a>
-<a href="https://www.npmjs.com/package/@react-pakistan/react-commons-collection" target="_blank">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Commons Collection - NPM Package" width="20%" />
-</a>
-<a href="https://taimoormk.github.io/react-ui-collection" target="_blank">
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg" alt="React Pakistan - React UI Collection" width="70%" />
-</a>
-<a href="https://www.npmjs.com/package/@react-pakistan/react-ui-collection" target="_blank">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React UI Collection - NPM Package" width="20%" />
-</a>
-<a href="https://taimoormk.github.io/react-icon-collection" target="_blank">
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg" alt="React Pakistan - React Icon Collection" width="70%" />
-</a>
-<a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Icon Collection - NPM Package" width="20%" />
-</a>
-<a href="https://taimoormk.github.io/react-logo-collection" target="_blank">
-  <img src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg" alt="React Pakistan - React Logo Collection" width="70%" />
-</a>
-<a href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection" target="_blank">
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-" alt="React Pakistan - React Logo Collection - NPM Package" width="20%" />
-</a>
 
 <div>
   <a
