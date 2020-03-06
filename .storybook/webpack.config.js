@@ -1,54 +1,53 @@
-const path = require("path");
-const createStyledComponentsTransformer = require("typescript-plugin-styled-components").default;
+const path = require('path');
+
+const maxAssetSize = 244 * 1024;
 
 module.exports = {
   resolve: {
-    extensions: [".ts", ".tsx"],
+    extensions: ['.ts', '.tsx'],
+  },
+  optimization: {
+    splitChunks: {
+      chunks: 'all',
+      maxSize: maxAssetSize,
+      minSize: 30 * 1024,
+    }
+  },
+  performance: {
+    maxAssetSize: maxAssetSize
   },
   module: {
     rules: [
       {
         test: /\.(ts|tsx)$/,
-        include: path.resolve(__dirname, "../src"),
+        include: path.resolve(__dirname, '../src'),
         exclude: /node_modules/,
         use: [
-          {
-            loader: "awesome-typescript-loader",
-            options: {
-              configFileName : "tsconfig.storybook.json",
-              getCustomTransformers: () => ({ before: [
-                createStyledComponentsTransformer({
-                  getDisplayName: (filename, bindingName) => `${bindingName}`,
-                }),
-              ] }),
-            },
-          },
-        ],
-      },
-      {
-        test: /\.tsx?$/,
-        include: path.resolve(__dirname, "../src/an-intro"),
-        use: [
-          require.resolve("ts-loader"),
-          require.resolve("react-docgen-typescript-loader"),
+          { loader: 'ts-loader' },
+          require.resolve('react-docgen-typescript-loader'),
         ],
       },
       {
         test: /\.scss$/,
         use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader",
+          'style-loader',
+          'css-loader',
+          'sass-loader',
         ],
-        include: path.resolve(__dirname, "../"),
+        include: path.resolve(__dirname, '../'),
       },
       {
         test: /\.css$/,
         use: [
-          "style-loader",
-          "css-loader",
+          'style-loader',
+          'css-loader',
         ],
-        include: path.resolve(__dirname, "../"),
+        include: path.resolve(__dirname, '../'),
+      },
+      {
+        test: /\.(png|woff|woff2|eot|ttf|svg)$/,
+        loaders: ['file-loader'],
+        include: path.resolve(__dirname, '../')
       },
     ],
   },
