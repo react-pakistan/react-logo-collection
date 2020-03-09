@@ -2372,10 +2372,10 @@
     "@svgr/plugin-svgo" "^5.2.0"
     loader-utils "^1.2.3"
 
-"@taimoormk/react-commons-collection@^1.0.10":
-  version "1.0.10"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.0.10/cfe70a60b95ad9bdc9ef6abd34194bf1e6a7b395489d8ec79cf24cba2033d3f9#97b503a2de3d29b3230e0a421c60f81ca0c57320"
-  integrity sha512-OuaN3mASGgYMes4rjy9PWGzC9v2Ma04eSmJ5cVCQ8Y71kjsrNcj8SUvJhKZXz76mFtaCxmizl3zNmpNl57Oi3Q==
+"@taimoormk/react-commons-collection@^1.0.12":
+  version "1.0.12"
+  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.0.12/03591e2be5b1ed42a7eb7047c2c03b9c4d60e8d971c83e7909e1ac559c495b8c#f7175f9cedfbf9479b9600cd705537b0263c8cf1"
+  integrity sha512-K9C9PoNbt13LH1peRyxCUh0rURyPb+W0q1zga4n8fybwi+QqFpqh3PHPJ7W0UC7FuTJVR/gpTIYJ3ZSRCTwFKw==
   dependencies:
     styled-components "^5.0.1"
 
@@ -2516,10 +2516,10 @@
     "@types/istanbul-lib-coverage" "*"
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@^25.1.3":
-  version "25.1.3"
-  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-25.1.3.tgz#9b0b5addebccfb631175870be8ba62182f1bc35a"
-  integrity sha512-jqargqzyJWgWAJCXX96LBGR/Ei7wQcZBvRv0PLEu9ZByMfcs23keUJrKv9FMR6YZf9YCbfqDqgmY+JUBsnqhrg==
+"@types/jest@^25.1.4":
+  version "25.1.4"
+  resolved "https://registry.yarnpkg.com/@types/jest/-/jest-25.1.4.tgz#9e9f1e59dda86d3fd56afce71d1ea1b331f6f760"
+  integrity sha512-QDDY2uNAhCV7TMCITrxz+MRk1EizcsevzfeS6LykIlq2V1E5oO4wXG8V2ZEd9w7Snxeeagk46YbMgZ8ESHx3sw==
   dependencies:
     jest-diff "^25.1.0"
     pretty-format "^25.1.0"
@@ -2539,10 +2539,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.5.1.tgz#6fae50892d1841f4b38b298e2f78fb68c5960cb9"
   integrity sha512-Jj2W7VWQ2uM83f8Ls5ON9adxN98MvyJsMSASYFuSvrov8RMRY64Ayay7KV35ph1TSGIJ2gG9ZVDdEq3c3zaydA==
 
-"@types/node@^13.7.7":
-  version "13.7.7"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.7.7.tgz#1628e6461ba8cc9b53196dfeaeec7b07fa6eea99"
-  integrity sha512-Uo4chgKbnPNlxQwoFmYIwctkQVkMMmsAoGGU4JKwLuvBefF0pCq4FybNSnfkfRCpC7ZW7kttcC/TrRtAJsvGtg==
+"@types/node@^13.9.0":
+  version "13.9.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.0.tgz#5b6ee7a77faacddd7de719017d0bc12f52f81589"
+  integrity sha512-0ARSQootUG1RljH2HncpsY2TJBfGQIKOOi7kxzUY6z54ePu/ZD+wJA8zI2Q6v8rol2qpG/rvqsReco8zNMPvhQ==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -11529,10 +11529,10 @@ react-dev-utils@^9.0.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-docgen-typescript-loader@^3.6.0:
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-3.6.0.tgz#5515f03f869e66d49e287c5f1e7ec10f2084f7bb"
-  integrity sha512-+uEsM3VYCdlcBGxF3tBqI5XWL1phvrh8dkiIfdpciKlM1BDHW+d82kKJI9hX6zk9H8TL+3Th/j/JAEaKb5FFNw==
+react-docgen-typescript-loader@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript-loader/-/react-docgen-typescript-loader-3.7.0.tgz#c2035929d93981f50ab96b71c0f58c8751aa6d23"
+  integrity sha512-M3oz/poiCSWsL9/OGtPHcpw6H85uEslVR44EV9itpG6kV570U/g9qY71UlJsPsigG5zanFHaVwrwhOpYjtSzlg==
   dependencies:
     "@webpack-contrib/schema-utils" "^1.0.0-beta.0"
     loader-utils "^1.2.3"
@@ -14688,7 +14688,7 @@ webpack-virtual-modules@^0.2.0:
   dependencies:
     debug "^3.0.0"
 
-webpack@^4.33.0, webpack@^4.38.0, webpack@^4.41.6:
+webpack@^4.33.0, webpack@^4.38.0, webpack@^4.42.0:
   version "4.42.0"
   resolved "https://registry.yarnpkg.com/webpack/-/webpack-4.42.0.tgz#b901635dd6179391d90740a63c93f76f39883eb8"
   integrity sha512-EzJRHvwQyBiYrYqhyjW9AqM90dE4+s1/XtCfn7uWg6cS72zH+2VPFAlsnW0+W0cDi0XRjNKUMoJtpSi50+Ph6w==
