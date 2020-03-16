@@ -50,7 +50,7 @@
     "@storybook/addon-google-analytics": "^5.3.15",
     "@storybook/addon-info": "^5.3.15",
     "@storybook/addon-knobs": "^5.3.15",
-    "@storybook/addon-links": "^5.3.15",
+    "@storybook/addon-links": "^5.3.17",
     "@storybook/addon-notes": "^5.3.15",
     "@storybook/addon-storysource": "^5.3.15",
     "@storybook/addon-viewport": "^5.3.15",
