@@ -44,7 +44,7 @@
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
     "@storybook/addon-a11y": "^5.3.17",
-    "@storybook/addon-actions": "^5.3.17",
+    "@storybook/addon-actions": "^5.3.18",
     "@storybook/addon-backgrounds": "^5.3.17",
     "@storybook/addon-docs": "^5.3.17",
     "@storybook/addon-google-analytics": "^5.3.17",
