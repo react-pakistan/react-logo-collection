@@ -18,6 +18,8 @@
     "lint:tools": "tslint '.storybook/*.js'",
     "lint:ts": "tslint --project tsconfig.json --exclude '*/*icons/*'",
     "lint:tsc": "yarn tsc --noEmit",
+    "publish:github": "npm publish",
+    "publish:npm": "npm publish --access public",
     "start": "start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage --config jest/config.json",
     "upgrade": "ncu -u"
