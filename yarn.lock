@@ -2754,10 +2754,10 @@
     "@svgr/plugin-svgo" "^5.3.0"
     loader-utils "^2.0.0"
 
-"@taimoormk/react-commons-collection@^1.0.19":
-  version "1.0.19"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.0.19/e8e53e0bd68c47deccc8cce1c8491cfd3c31d59ece9ec873a4e7fd5548bb6f6e#9b655466bd7e1734769f646aeaf13e58f4b610ae"
-  integrity sha512-DRLq+MB/eq5dyVW+yce1OsoEm6BnmRTrUI/EG8QOBUqJ/FRM65BsS+lZgaoLEwzc1HkkckdZ2RD+pbtdh1n38Q==
+"@taimoormk/react-commons-collection@^1.0.22":
+  version "1.0.22"
+  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.0.22/563223ae93fbce4548d554fbabd92e2bd2e5cf3e843477fc5224363ddd3cb7c1#41a55df08d2979cbac69476cc349c57a084b2b68"
+  integrity sha512-N/nwKUu2TX225/Vq4Zd7oI/zCPmqzaBAsAUwkOQaT30SSUQRfqzIHviqlDIXZ+x6BqladdXZ1lR0xELD2kfs3w==
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -2921,10 +2921,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.4.tgz#63c58e67999bfbfa688dd49ed84639b01b543606"
   integrity sha512-uzaaDXey/NI2l7kU+xCgWu852Dh/zmf6ZKApc0YQEQpY4DaiZFmLN29E6SLHJfSedj3iNWAndSwfSBpEDadJfg==
 
-"@types/node@^13.11.1":
-  version "13.11.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.11.1.tgz#49a2a83df9d26daacead30d0ccc8762b128d53c7"
-  integrity sha512-eWQGP3qtxwL8FGneRrC5DwrJLGN4/dH1clNTuLfN81HCrxVtxRjygDTUoZJ5ASlDEeo0ppYFQjQIlXhtXpOn6g==
+"@types/node@^13.13.0":
+  version "13.13.0"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.0.tgz#30d2d09f623fe32cde9cb582c7a6eda2788ce4a8"
+  integrity sha512-WE4IOAC6r/yBZss1oQGM5zs2D7RuKR6Q+w+X2SouPofnWn+LbCqClRyhO3ZE7Ix8nmFgo/oVuuE01cJT2XB13A==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -13757,10 +13757,10 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.1.tgz#68fad040d7dbd53a90f545b450702340e17d18f3"
   integrity sha512-UGTRZu1evMw4uTPyYF66/KFd22XiU+jMaIuHrkIHQ2GivAXVlLV0v/vHrpOuTRf9BmpNHi/SO7Vd0rLu0y57jg==
 
-ts-jest@^25.3.1:
-  version "25.3.1"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-25.3.1.tgz#58e2ed3506e4e4487c0b9b532846a5cade9656ba"
-  integrity sha512-O53FtKguoMUByalAJW+NWEv7c4tus5ckmhfa7/V0jBb2z8v5rDSLFC1Ate7wLknYPC1euuhY6eJjQq4FtOZrkg==
+ts-jest@^25.4.0:
+  version "25.4.0"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-25.4.0.tgz#5ad504299f8541d463a52e93e5e9d76876be0ba4"
+  integrity sha512-+0ZrksdaquxGUBwSdTIcdX7VXdwLIlSRsyjivVA9gcO+Cvr6ByqDhu/mi5+HCcb6cMkiQp5xZ8qRO7/eCqLeyw==
   dependencies:
     bs-logger "0.x"
     buffer-from "1.x"
