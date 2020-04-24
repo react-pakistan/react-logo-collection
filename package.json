@@ -14,6 +14,7 @@
     "deploy-storybook": "storybook-to-ghpages",
     "generate-logos": "scripts/generate-logos.sh",
     "lint": "npm-run-all --parallel lint:**",
+    "lint-staged": "lint-staged",
     "lint:css": "stylelint './src/**/*.tsx'",
     "lint:tools": "tslint '.storybook/*.js'",
     "lint:ts": "tslint --project tsconfig.json --exclude '*/*icons/*'",
@@ -24,15 +25,22 @@
     "test": "jest --coverage --config jest/config.json",
     "upgrade": "ncu -u"
   },
-  "pre-commit": [
-    "lint"
-  ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Taimoormk/react-logo-collection.git"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn lint"
+    ]
   },
   "author": "Taimoor Khan",
   "license": "MIT",
@@ -64,7 +72,7 @@
     "@taimoormk/react-commons-collection": "^1.0.22",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
-    "@types/invariant": "^2.2.31",
+    "@types/invariant": "^2.2.32",
     "@types/jest": "^25.2.1",
     "@types/node": "^13.13.2",
     "@types/react": "^16.9.34",
@@ -73,14 +81,14 @@
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^25.4.0",
     "babel-loader": "^8.1.0",
-    "css-loader": "^3.5.2",
+    "css-loader": "^3.5.3",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "html-webpack-plugin": "^4.2.0",
     "husky": "^4.2.5",
     "jest": "^25.4.0",
+    "lint-staged": "^10.1.7",
     "npm-run-all": "^4.1.5",
-    "pre-commit": "^1.2.2",
     "react": "^16.13.1",
     "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^16.13.1",
@@ -89,7 +97,7 @@
     "rimraf": "^3.0.2",
     "sass-loader": "^8.0.2",
     "storybook-readme": "^5.0.8",
-    "style-loader": "^1.1.4",
+    "style-loader": "^1.2.0",
     "styled-components": "^5.1.0",
     "stylelint": "^13.3.3",
     "stylelint-config-recommended": "^3.0.0",
