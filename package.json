@@ -19,8 +19,8 @@
     "lint:tools": "tslint '.storybook/*.js'",
     "lint:ts": "tslint --project tsconfig.json --exclude '*/*icons/*'",
     "lint:tsc": "yarn tsc --noEmit",
-    "publish:github": "npm publish",
-    "publish:npm": "npm publish --access public",
+    "publish:github": "cd lib/ && npm publish && cd ..",
+    "publish:npm": "cd lib/ && npm publish --access public && cd ..",
     "start": "start-storybook -p 9001 -c .storybook",
     "test": "jest --coverage --config jest/config.json",
     "upgrade": "ncu -u"
@@ -69,7 +69,7 @@
     "@storybook/storybook-deployer": "^2.8.5",
     "@svgr/cli": "^5.4.0",
     "@svgr/webpack": "^5.4.0",
-    "@taimoormk/react-commons-collection": "^1.0.22",
+    "@taimoormk/react-commons-collection": "^1.0.25",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/invariant": "^2.2.32",
@@ -90,7 +90,6 @@
     "lint-staged": "^10.2.2",
     "npm-run-all": "^4.1.5",
     "react": "^16.13.1",
-    "react-docgen-typescript-loader": "^3.7.2",
     "react-dom": "^16.13.1",
     "react-ga": "^2.7.0",
     "regenerator-runtime": "^0.13.5",
@@ -98,21 +97,17 @@
     "sass-loader": "^8.0.2",
     "storybook-readme": "^5.0.8",
     "style-loader": "^1.2.1",
-    "styled-components": "^5.1.0",
     "stylelint": "^13.3.3",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
     "ts-jest": "^25.5.0",
-    "ts-loader": "^7.0.2",
+    "ts-loader": "^7.0.3",
     "tslint": "^6.1.2",
     "tslint-react": "^5.0.0",
     "typescript": "^3.8.3",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
-  },
-  "peerDependencies": {
-    "styled-components": "^5.1.0"
+    "webpack-dev-server": "^3.11.0"
   }
 }

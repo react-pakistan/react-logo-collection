@@ -24,7 +24,6 @@ module.exports = {
         exclude: /node_modules/,
         use: [
           { loader: 'ts-loader' },
-          require.resolve('react-docgen-typescript-loader'),
         ],
       },
       {
