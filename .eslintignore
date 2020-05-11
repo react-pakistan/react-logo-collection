@@ -1,0 +1,10 @@
+.github/
+.idea/
+.storybook/
+coverage/
+jest/
+lib/
+mongodump/
+node_modules/
+scripts/
+src/types/
