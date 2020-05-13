@@ -63,7 +63,7 @@
     "@storybook/addon-viewport": "^5.3.18",
     "@storybook/core-events": "^5.3.18",
     "@storybook/react": "^5.3.18",
-    "@storybook/storybook-deployer": "^2.8.5",
+    "@storybook/storybook-deployer": "^2.8.6",
     "@svgr/cli": "^5.4.0",
     "@svgr/webpack": "^5.4.0",
     "@taimoormk/eslint-config-shared": "^1.0.3",
