@@ -48,7 +48,7 @@
   "homepage": "https://github.com/Taimoormk/react-logo-collection#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.10.0",
+    "@babel/core": "^7.10.1",
     "@babel/preset-env": "^7.10.0",
     "@babel/preset-react": "^7.10.0",
     "@storybook/addon-a11y": "^5.3.19",
