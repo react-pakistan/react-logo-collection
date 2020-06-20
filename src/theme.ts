@@ -1,3 +1,3 @@
-import { theme, ITheme } from '@taimoormk/react-commons-collection';
+import { theme, ITheme } from '@taimoormk/util-functions';
 
 export const logoTheme : ITheme = { ...theme };

@@ -1,6 +1,6 @@
 {
   "name": "@taimoormk/react-logo-collection",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -48,8 +48,8 @@
   "homepage": "https://github.com/Taimoormk/react-logo-collection#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.10.2",
-    "@babel/preset-env": "^7.10.2",
+    "@babel/core": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
     "@babel/preset-react": "^7.10.1",
     "@storybook/addon-a11y": "^5.3.19",
     "@storybook/addon-actions": "^5.3.19",
@@ -68,7 +68,8 @@
     "@svgr/cli": "^5.4.0",
     "@svgr/webpack": "^5.4.0",
     "@taimoormk/eslint-config-shared": "^1.0.12",
-    "@taimoormk/react-commons-collection": "^1.1.8",
+    "@taimoormk/react-commons-collection": "^1.1.9",
+    "@taimoormk/util-functions": "^1.0.18",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/invariant": "^2.2.33",
