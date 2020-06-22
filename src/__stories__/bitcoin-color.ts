@@ -3,7 +3,7 @@
  * DO NOT EDIT!
  */
         
-import * as Logos from '../../bitcoin-color';
+import * as Logos from '../bitcoin-color';
 
 export const LOGO_LIST = [
   { logo: Logos.BitcoinColor1, name: 'BitcoinColor1' },

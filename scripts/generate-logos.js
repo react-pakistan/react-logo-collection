@@ -18,7 +18,7 @@ const generate = () => {
  * DO NOT EDIT!
  */
         
-import * as Logos from '../../${fileName}';
+import * as Logos from '../${fileName}';
 
 export const LOGO_LIST = [
 `;
@@ -33,13 +33,10 @@ export const LOGO_LIST = [
     });
     logoListOutput += `];
 `;
-    if (!fs.existsSync(`${saveDir}${fileName}`)) {
-      fs.mkdirSync(`${saveDir}${fileName}`);
-    }
     const categoryName = fileName.split('-').map(str => str[0].toUpperCase() + str.slice(1)).join('');
     const story = storyTemplate(categoryName, fileName);
-    fs.writeFileSync(`${saveDir}${fileName}/${fileName}.ts`, logoListOutput);
-    fs.writeFileSync(`${saveDir}${fileName}/${fileName}.story.tsx`, story);
+    fs.writeFileSync(`${saveDir}/${fileName}.ts`, logoListOutput);
+    fs.writeFileSync(`${saveDir}/${fileName}.story.tsx`, story);
   });
 };
 

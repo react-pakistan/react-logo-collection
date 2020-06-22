@@ -2,7 +2,7 @@ module.exports = (
   category,
   logoListDirName,
 ) => `import React, { ReactElement } from 'react';
-import { LogoWrapper, LogoTextWrapper, LogoItem } from '../../styled';
+import { LogoWrapper, LogoTextWrapper, LogoItem } from '../styled';
 import { LOGO_LIST } from './${logoListDirName}';
 
 const logoStyle = { width: '7rem', height: '7rem' };

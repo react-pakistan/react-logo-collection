@@ -3,7 +3,7 @@
  * DO NOT EDIT!
  */
         
-import * as Logos from '../../vintage-color';
+import * as Logos from '../vintage-color';
 
 export const LOGO_LIST = [
   { logo: Logos.VintageColor1, name: 'VintageColor1' },
