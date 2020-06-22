@@ -45,7 +45,7 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
       target="_blank"
     >
       <img
-        alt="React Pakistan - React Lofo Collection"
+        alt="React Pakistan - React Logo Collection"
         src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg"
         width="70%"
       />
@@ -152,6 +152,35 @@ A generic, SVG Logo library for React web apps, following modern approach by bui
   </right>
 </div>
 
+<div>
+  <left>
+    <a
+      href="https://taimoormk.github.io/react-emoji-collection"
+      target="_blank"
+    >
+      <img
+        alt="React Pakistan - React Emoji Collection"
+        src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg"
+        width="70%"
+      />
+    </a>
+  </left>
+  <right
+    style={{ paddingLeft: '10px' }}
+  >
+    <a
+      href="https://www.npmjs.com/package/@react-pakistan/react-emoji-collection"
+      target="_blank"
+    >
+      <img
+        alt="React Pakistan - React Emoji Collection - NPM Package"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-"
+        width="20%"
+      />
+    </a>
+  </right>
+</div>
+
 ## Install
 
 Add React Logo Collection to your project. 
@@ -166,7 +195,7 @@ You could either use the default theme as shown below or wire your custom theme 
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/react-commons-collection/theme';
+  import { theme } from '@react-pakistan/util-functions';
 
   <ThemeProvider theme={theme}>
     <App />
@@ -177,12 +206,12 @@ You could either use the default theme as shown below or wire your custom theme 
 
 Import SVG Reactified Logos you want into your component
 
-`import { LogoBitcoinColor29 } from ‘@react-pakistan/react-logo-collection/logos/bitcoin-color’;`
+`import { SvgBitcoinColor29 } from ‘@react-pakistan/react-logo-collection/bitcoin-color’;`
 
 and use them like so
 
 ```javascript
-  <LogoBitcoinColor29
+  <SvgBitcoinColor29
     fontSize="32px"
     color="#2E2E2E"
   />
