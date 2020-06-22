@@ -1,16 +1,16 @@
 import styled from 'styled-components';
 
-export const EmojiWrapper = styled.div`
+export const LogoWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
 `;
 
-export const EmojiTextWrapper = styled.div`
+export const LogoTextWrapper = styled.div`
   font-size: 0.75em;
   margin-top: 0.75em;
 `;
 
-export const EmojiItem = styled.div`
+export const LogoItem = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
