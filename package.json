@@ -12,7 +12,7 @@
     "build:ts:cjs": "tsc --project tsconfig.build-cjs.json",
     "clean": "yarn rimraf ./lib",
     "deploy-storybook": "storybook-to-ghpages",
-    "generate-logos": "yarn generate-script && scripts/generate-logos.sh",
+    "generate-logos": "scripts/generate-logos.sh",
     "generate-script": "scripts/generate-script.sh",
     "lint": "yarn lint:ts && yarn lint:css",
     "lint-staged": "lint-staged",

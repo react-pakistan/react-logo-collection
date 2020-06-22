@@ -1,4 +1,4 @@
-svgr --template scripts/svgr-template.js --config-file scripts/.svgrrc-color.js -d src/logos/bitcoin-color --ext tsx assets/bitcoin-color
-svgr --template scripts/svgr-template.js --config-file scripts/.svgrrc-color.js -d src/logos/misc-color --ext tsx assets/misc-color
-svgr --template scripts/svgr-template.js --config-file scripts/.svgrrc-color.js -d src/logos/vintage-color --ext tsx assets/vintage-color
+find . -name '.DS_Store' -type f -delete
+
+scripts/all-scripts.sh
 node scripts/generate-logos.js
