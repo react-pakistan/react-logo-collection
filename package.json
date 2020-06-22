@@ -1,6 +1,6 @@
 {
   "name": "@taimoormk/react-logo-collection",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -13,6 +13,7 @@
     "clean": "yarn rimraf ./lib",
     "deploy-storybook": "storybook-to-ghpages",
     "generate-logos": "scripts/generate-logos.sh",
+    "generate-script": "scripts/generate-script.sh",
     "lint": "yarn lint:ts && yarn lint:css",
     "lint-staged": "lint-staged",
     "lint:css": "stylelint './src/**/*.tsx'",

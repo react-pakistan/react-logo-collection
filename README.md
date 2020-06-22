@@ -68,7 +68,7 @@ You could either use the default theme as shown below or wire your custom theme 
 
 ```javascript
   import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/react-commons-collection/theme';
+  import { theme } from '@react-pakistan/util-functions';
 
   <ThemeProvider theme={theme}>
     <App />
@@ -77,11 +77,11 @@ You could either use the default theme as shown below or wire your custom theme 
 
 ### **Use**
 
-- [LogoBitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/commons-logos--bitcoincolorlogos)
+- [SvgBitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color)
 ```javascript
-  import { LogoBitcoinColor29 } from '@react-pakistan/react-logo-collection/logos/bitcoin-color';
+  import { SvgBitcoinColor29 } from '@react-pakistan/react-logo-collection/bitcoin-color';
 
-  <LogoBitcoinColor29
+  <SvgBitcoinColor29
     fontSize="32px"
     color="#2E2E2E"
   />
@@ -146,6 +146,28 @@ You could either use the default theme as shown below or wire your custom theme 
   </a>
   <a
     href="https://www.npmjs.com/package/@react-pakistan/react-icon-collection"
+    target="_blank"
+  >
+    <img
+      alt="React Pakistan - React Icon Collection - NPM Package"
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-"
+      width="20%"
+    />
+  </a>
+</div>
+<div>
+  <a
+    href="https://taimoormk.github.io/react-emoji-collection"
+    target="_blank"
+  >
+    <img
+      alt="React Pakistan - React Emoji Collection"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg"
+      width="70%"
+    />
+  </a>
+  <a
+    href="https://www.npmjs.com/package/@react-pakistan/react-emoji-collection"
     target="_blank"
   >
     <img
