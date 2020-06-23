@@ -171,7 +171,7 @@ You could either use the default theme as shown below or wire your custom theme 
     target="_blank"
   >
     <img
-      alt="React Pakistan - React Icon Collection - NPM Package"
+      alt="React Pakistan - React Emoji Collection - NPM Package"
       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY1K6JwhYEBfsv52nUT30dAIjoFyp252cH6VVkhXB_Gq1bUSz-"
       width="20%"
     />
