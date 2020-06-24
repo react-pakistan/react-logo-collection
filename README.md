@@ -77,13 +77,12 @@ You could either use the default theme as shown below or wire your custom theme 
 
 ### **Use**
 
-- [SvgBitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color)
+- [BitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color)
 ```javascript
-  import { SvgBitcoinColor29 } from '@react-pakistan/react-logo-collection/bitcoin-color';
+  import { BitcoinColor29 } from '@react-pakistan/react-logo-collection/bitcoin-color';
 
-  <SvgBitcoinColor29
+  <BitcoinColor29
     fontSize="32px"
-    color="#2E2E2E"
   />
 ```
 
