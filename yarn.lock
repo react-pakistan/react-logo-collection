@@ -3236,10 +3236,10 @@
     tslint "^6.1.2"
     tslint-react "^5.0.0"
 
-"@taimoormk/react-commons-collection@^1.1.11":
-  version "1.1.11"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.1.11/74b3a8bb6826ad45874a2ceee0f976af0931884fb13a8c07e46b733fafec81d4#d6d153e03bfbdd7e75e2cbe8ca4394227016e848"
-  integrity sha512-fGh6DCBIe3G+ElP7pW/8SbNQP1Poh8QmHRndewmuVzUupWfThEnIDC4UoCMBThaeMC4YwOXMpQG52Gt85cxapQ==
+"@taimoormk/react-commons-collection@^1.1.12":
+  version "1.1.12"
+  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/1.1.12/abfa6a88af7ba6d5415c1bfbb887328090a35f0512e94e06a8d31cdb43aa3c33#19ff215ecd65c9b36c7f9cb9de364a7773e529e5"
+  integrity sha512-q+6J1m644QThBd2tUAheaLZ6jyJH8mxhi+rhipFfIxJZznMfY36THe8QQehXPYbfY3mT87AFadl+dzHf5ikBwQ==
   dependencies:
     react-share "^4.2.1"
     styled-components "^5.1.1"
@@ -3451,10 +3451,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
-"@types/node@^14.0.26":
-  version "14.0.26"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.26.tgz#22a3b8a46510da8944b67bfc27df02c34a35331c"
-  integrity sha512-W+fpe5s91FBGE0pEa0lnqGLL4USgpLgs4nokw16SrBBco/gQxuua7KnArSEOd5iaMqbbSHV10vUDkJYJJqpXKA==
+"@types/node@^14.0.27":
+  version "14.0.27"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.27.tgz#a151873af5a5e851b51b3b065c9e63390a9e0eb1"
+  integrity sha512-kVrqXhbclHNHGu9ztnAwSncIgJv/FaxmzXJvGXNdcCpV1b8u1/Mi6z6m0vwy0LzKeXFTPLH0NzwmoJ3fNCIq0g==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -14555,10 +14555,10 @@ ts-dedent@^1.1.0:
   resolved "https://registry.yarnpkg.com/ts-dedent/-/ts-dedent-1.1.1.tgz#68fad040d7dbd53a90f545b450702340e17d18f3"
   integrity sha512-UGTRZu1evMw4uTPyYF66/KFd22XiU+jMaIuHrkIHQ2GivAXVlLV0v/vHrpOuTRf9BmpNHi/SO7Vd0rLu0y57jg==
 
-ts-jest@^26.1.3:
-  version "26.1.3"
-  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.1.3.tgz#aac928a05fdf13e3e6dfbc8caec3847442667894"
-  integrity sha512-beUTSvuqR9SmKQEylewqJdnXWMVGJRFqSz2M8wKJe7GBMmLZ5zw6XXKSJckbHNMxn+zdB3guN2eOucSw2gBMnw==
+ts-jest@^26.1.4:
+  version "26.1.4"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.1.4.tgz#87d41a96016a8efe4b8cc14501d3785459af6fa6"
+  integrity sha512-Nd7diUX6NZWfWq6FYyvcIPR/c7GbEF75fH1R6coOp3fbNzbRJBZZAn0ueVS0r8r9ral1VcrpneAFAwB3TsVS1Q==
   dependencies:
     bs-logger "0.x"
     buffer-from "1.x"
