@@ -1,3 +1,4 @@
+import { SVGProps } from 'react';
 import styled from 'styled-components';
 
 export const LogoWrapper = styled.div`
@@ -18,3 +19,10 @@ export const LogoItem = styled.div`
   justify-content: center;
   width: 10em;
 `;
+
+export interface ILogoProps extends SVGProps<SVGSVGElement> {
+  style : {
+    height : string;
+    width : string;
+  }
+}
