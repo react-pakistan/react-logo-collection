@@ -1,6 +1,7 @@
 import * as React from "react";
+import { ILogoProps } from "../styled";
 
-const SvgMiscColor1 = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgMiscColor1 = (props: ILogoProps) => (
   <svg
     id="MiscColor1_svg__Layer_1"
     x={0}

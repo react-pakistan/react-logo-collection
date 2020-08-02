@@ -1,6 +1,7 @@
 import * as React from "react";
+import { ILogoProps } from "../styled";
 
-const SvgBitcoinColor22 = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgBitcoinColor22 = (props: ILogoProps) => (
   <svg width="1em" height="1em" viewBox="0 0 88 77" {...props}>
     <g fill="#000" fillRule="evenodd">
       <path d="M11.21 44.784l.104.746c-1.049-.286-1.941-.746-2.755-1.308l-1.927.269-.09-.645 1.928-.268c.629-.763 1.361-1.449 2.293-2.011l.103.746a5.891 5.891 0 00-1.785 1.508 5.89 5.89 0 002.129.963" />

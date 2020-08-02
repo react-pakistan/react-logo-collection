@@ -1,6 +1,7 @@
 import * as React from "react";
+import { ILogoProps } from "../styled";
 
-const SvgVintageColor13 = (props: React.SVGProps<SVGSVGElement>) => (
+const SvgVintageColor13 = (props: ILogoProps) => (
   <svg width="1em" height="1em" viewBox="0 0 120 104" {...props}>
     <defs>
       <path id="VintageColor13_svg__a" d="M.284.438h3.122v3.453H.284z" />
