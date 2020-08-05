@@ -50,7 +50,7 @@
   "homepage": "https://github.com/Taimoormk/react-logo-collection#readme",
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "^7.11.0",
+    "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "@babel/preset-react": "^7.10.4",
     "@storybook/addon-a11y": "^5.3.19",
@@ -71,7 +71,7 @@
     "@svgr/webpack": "^5.4.0",
     "@taimoormk/eslint-config-shared": "^1.0.26",
     "@taimoormk/react-commons-collection": "^1.1.14",
-    "@taimoormk/util-functions": "^1.0.26",
+    "@taimoormk/util-functions": "^1.0.27",
     "@types/enzyme": "^3.10.5",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/invariant": "^2.2.33",
