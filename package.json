@@ -57,7 +57,7 @@
     "@storybook/addon-actions": "^5.3.19",
     "@storybook/addon-backgrounds": "^5.3.19",
     "@storybook/addon-docs": "^5.3.19",
-    "@storybook/addon-google-analytics": "^5.3.19",
+    "@storybook/addon-google-analytics": "^6.0.7",
     "@storybook/addon-info": "^5.3.19",
     "@storybook/addon-knobs": "^5.3.19",
     "@storybook/addon-links": "^5.3.19",
