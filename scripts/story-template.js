@@ -3,6 +3,7 @@ module.exports = (
   logoListDirName,
 ) => `import React, { ReactElement } from 'react';
 import { LogoWrapper, LogoTextWrapper, LogoItem } from '../styled';
+import { StyledStory } from '../styled-app';
 import { LOGO_LIST } from './${logoListDirName}';
 
 const logoStyle = { width: '7rem', height: '7rem' };
@@ -26,13 +27,15 @@ const renderItem = (
 const logos = LOGO_LIST.map(renderItem);
 
 export const ${category} = () : ReactElement => (
-  <LogoWrapper>
-    {logos}
-  </LogoWrapper>
+  <StyledStory>
+    <LogoWrapper>
+      {logos}
+    </LogoWrapper>
+  </StyledStory>
 );
 
 export default {
-  title: 'Logo|${category}',
+  title: 'Logo/${category}',
 
   parameters: {
     component: ${category},

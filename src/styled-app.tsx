@@ -3,6 +3,7 @@
 import { ITheme } from '@taimoormk/util-functions';
 import * as React from 'react';
 import * as styledComponents from 'styled-components';
+import { MiscColor1 } from './misc-color';
 import { logoTheme } from './theme';
 
 // https://www.styled-components.com/docs/api#define-a-theme-interface
@@ -17,13 +18,9 @@ const {
 export { styled, css, createGlobalStyle, keyframes, ThemeProvider };
 
 export const StyledApp = styled.div`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
-  @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-  width: 100%;
   display: inline-block;
   font-family: ${props => props.theme.typography.fontFamily};
+  width: 100%;
   *,
   *::before,
   *::after {
@@ -34,6 +31,7 @@ export const StyledApp = styled.div`
 export const StyledStory = ({ children } : { children : React.ReactNode }) => (
   <ThemeProvider theme={logoTheme}>
     <StyledApp>{children}</StyledApp>
+    <MiscColor1 fontSize='200px' style={{ width: '', height: '' }} />
   </ThemeProvider>
 );
 
