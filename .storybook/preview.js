@@ -2,7 +2,7 @@ import { themes } from '@storybook/theming';
 import { responsiveScreens } from '@taimoormk/util-functions';
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
+  actions: { argTypesRegex: '^on[A-Z].*' },
   docs: {
     theme: themes.dark,
   },
