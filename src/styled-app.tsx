@@ -31,7 +31,7 @@ export const StyledApp = styled.div`
 export const StyledStory = ({ children } : { children : React.ReactNode }) => (
   <ThemeProvider theme={logoTheme}>
     <StyledApp>{children}</StyledApp>
-    <MiscColor1 fontSize='200px' style={{ width: '', height: '' }} />
+    <MiscColor1 fontSize='200px' />
   </ThemeProvider>
 );
 
