@@ -8,3 +8,5 @@ addons.setConfig({
     ...themes.dark
   },
 });
+
+window.STORYBOOK_GA_ID = 'UA-145839845-1';

@@ -6,7 +6,7 @@ import { LOGO_LIST } from './bitcoin-color';
 const logoStyle = { width: '7rem', height: '7rem' };
 
 const renderItem = (
-  item : { logo : React.SFC<React.SVGProps<SVGSVGElement>> , name : string }
+  item : { logo : ReactElement<React.SVGProps<SVGSVGElement>> , name : string }
 ) : ReactElement => {
   const Logo = item.logo;
   return (

@@ -23,8 +23,8 @@ export const LogoItem = styled.div`
 `;
 
 export interface ILogoProps extends SVGProps<SVGSVGElement> {
-  style : {
-    height : string;
-    width : string;
+  style? : {
+    height? : string;
+    width? : string;
   }
 }
