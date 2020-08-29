@@ -2919,24 +2919,24 @@
     simplebar-react "^1.0.0-alpha.6"
     ts-dedent "^1.1.0"
 
-"@storybook/core-events@5.3.20":
+"@storybook/core-events@5.3.20", "@storybook/core-events@^5.0.6":
   version "5.3.20"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.3.20.tgz#b0600b27ad56b238f14eaf77ef08d389a2dce9c4"
   integrity sha512-vaSiW67iloowAqmAtp4qJLACCcRdwrxL5jOXbIY3iwOj44To5Ahys3SyorDwsfgZpb5F9nMjGWDCwD/LvBssTg==
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/core-events@6.0.19", "@storybook/core-events@^6.0.19":
+"@storybook/core-events@6.0.19":
   version "6.0.19"
   resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.0.19.tgz#d353ba7f92d602fa66abae4cf3556a5f96d2f85c"
   integrity sha512-rINWhsCX9J+d8uoJ2FYCl/f4AgiDzUC9NrQO9809pOWRTXwuA5PKxm9YfeXnbVoAD7K1L1tHms60f2YOROo4nA==
   dependencies:
     core-js "^3.0.1"
 
-"@storybook/core-events@^5.0.6":
-  version "5.3.18"
-  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-5.3.18.tgz#e5d335f8a2c7dd46502b8f505006f1e111b46d49"
-  integrity sha512-uQ6NYJ5WODXK8DJ7m8y3yUAtWB3n+6XtYztjY+tdkCsLYvTYDXNS+epV+f5Hu9+gB+/Dm+b5Su4jDD+LZB2QWA==
+"@storybook/core-events@^6.0.20":
+  version "6.0.20"
+  resolved "https://registry.yarnpkg.com/@storybook/core-events/-/core-events-6.0.20.tgz#cf86fc4315e9ba064a08a0e313e419375ab07abd"
+  integrity sha512-0UIgBRx5n7CaBAb1JQBSUm0+MI7+7hnJSM6bjwcvBSZxpqSY9txPlQyxmzt5xTDJQye1HxmL1IpHfMxvzATLuQ==
   dependencies:
     core-js "^3.0.1"
 
