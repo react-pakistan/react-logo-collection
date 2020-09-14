@@ -21,12 +21,10 @@ const renderItem = (
   );
 };
 
-const logos = LOGO_LIST.map(renderItem);
-
 export const VintageColor = () : ReactElement => (
   <StyledStory>
     <LogoWrapper>
-      {logos}
+      {LOGO_LIST.map(renderItem)}
     </LogoWrapper>
   </StyledStory>
 );

@@ -24,12 +24,10 @@ const renderItem = (
   );
 };
 
-const logos = LOGO_LIST.map(renderItem);
-
 export const ${category} = () : ReactElement => (
   <StyledStory>
     <LogoWrapper>
-      {logos}
+      {LOGO_LIST.map(renderItem)}
     </LogoWrapper>
   </StyledStory>
 );
