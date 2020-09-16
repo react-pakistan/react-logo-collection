@@ -2406,10 +2406,10 @@
   resolved "https://registry.yarnpkg.com/@mdx-js/util/-/util-1.6.1.tgz#c1e8480844dfaeecde8b827d0e4bbf8793274659"
   integrity sha512-A3TBBjg5iVo8S4TTG0VrW8G9YNLob4+M6rALKjY8Sxr9zPExWQ7iTPUSvJVE7YhF9E08EQMubx1vRal3jtpJ9Q==
 
-"@microsoft/tsdoc@^0.12.20":
-  version "0.12.20"
-  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.20.tgz#4261285f666ee0c0378f810585dd4ec5bbfa8852"
-  integrity sha512-/b13m37QZYPV6nCOiqkFyvlQjlTNvAcQpgFZ6ZKIqtStJxNdqVo/frULubxMUMWi6p9Uo5f4BRlguv5ViFcL0A==
+"@microsoft/tsdoc@^0.12.21":
+  version "0.12.21"
+  resolved "https://registry.yarnpkg.com/@microsoft/tsdoc/-/tsdoc-0.12.21.tgz#1098c393634826ed47386862a1241ce8b7c0cf0d"
+  integrity sha512-j+9OJ0A0buZZaUn6NxeHUVpoa05tY2PgVs7kXJhJQiKRB0G1zQqbJxer3T7jWtzpqQWP89OBDluyIeyTsMk8Sg==
 
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
@@ -3503,12 +3503,12 @@
   resolved "https://npm.pkg.github.com/download/@taimoormk/react-icon-collection/1.0.8/1f4ef501c175318e4f197cd4a1ab11fefde2cd4dbd568a3dd0af26321f836ee2#ea87eee6118e637d0c4281b54901d4de86b0b2d8"
   integrity sha512-hTArIvBrM2NJjHFszA2d+ku0nZirUg8wpvtS7NRA4OsBugmoz03ofWqNgnM8Z/xmWcwCX/nCMnV8oRt9LX68eQ==
 
-"@taimoormk/util-functions@^1.2.2":
-  version "1.2.2"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/util-functions/1.2.2/9c392adb3edf7c35009ecaa66b0114aaea89d69d30817161540f6c86c6ab0ca9#d6f5132e72f0efed2b2518d01564c4e1b5896604"
-  integrity sha512-OmaDl02SPYnxyBGcWsZTdrHzMLMJUIipWwp61Blb/YA+Q81/h2Xv43m8mKqG83xKcWWk3S6e4OuQBl9nEqoUzg==
+"@taimoormk/util-functions@^1.2.4":
+  version "1.2.4"
+  resolved "https://npm.pkg.github.com/download/@taimoormk/util-functions/1.2.4/95820bf19d101dc5abd74d92919cf0c33f1b4be4dd1e423a913c41f858208e72#6a63542c6a0f4ca3208de4d830ffd1a2732f160e"
+  integrity sha512-CwQxPwCJEGcqtJOPd/HP+QxfjscNgSZyTgwEApFTwWDTlc7+bgGaPFqtZPJrc0fl+fnvjAIacNdZansA3z7GWQ==
   dependencies:
-    "@microsoft/tsdoc" "^0.12.20"
+    "@microsoft/tsdoc" "^0.12.21"
 
 "@types/anymatch@*":
   version "1.3.1"
@@ -3761,10 +3761,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
-"@types/node@^14.10.1":
-  version "14.10.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.10.1.tgz#cc323bad8e8a533d4822f45ce4e5326f36e42177"
-  integrity sha512-aYNbO+FZ/3KGeQCEkNhHFRIzBOUgc7QvcVNKXbfnhDkSfwUv91JsQQa10rDgKSTSLkXZ1UIyPe4FJJNVgw1xWQ==
+"@types/node@^14.10.2":
+  version "14.10.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.10.2.tgz#9b47a2c8e4dabd4db73b57e750b24af689600514"
+  integrity sha512-IzMhbDYCpv26pC2wboJ4MMOa9GKtjplXfcAqrMeNJpUUwpM/2ATt2w1JPUXwS6spu856TvKZL2AOmeU2rAxskw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
