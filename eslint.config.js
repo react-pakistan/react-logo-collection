@@ -1,5 +1,5 @@
 module.exports = {
-  extends: '@taimoormk/eslint-config-shared/ts-base/.eslintrc.json',
+  extends: '@react-pakistan/eslint-config-shared/ts-base/.eslintrc.json',
   parser: 'babel-eslint',
   env: {
     jest: true,

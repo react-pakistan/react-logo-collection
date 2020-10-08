@@ -1,5 +1,5 @@
 import { themes } from '@storybook/theming';
-import { responsiveScreens } from '@taimoormk/util-functions';
+import { responsiveScreens } from '@react-pakistan/util-functions';
 
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },

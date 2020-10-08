@@ -1,5 +1,5 @@
 import { create } from '@storybook/theming';
-import { reactPakistanTheme } from '@taimoormk/util-functions';
+import { reactPakistanTheme } from '@react-pakistan/util-functions';
 
 export default create({
   ...reactPakistanTheme,

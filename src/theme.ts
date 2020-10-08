@@ -1,3 +1,3 @@
-import { theme, ITheme } from '@taimoormk/util-functions';
+import { theme, ITheme } from '@react-pakistan/util-functions';
 
 export const logoTheme : ITheme = { ...theme };

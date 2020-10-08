@@ -1,4 +1,4 @@
-import { ITheme } from '@taimoormk/util-functions';
+import { ITheme } from '@react-pakistan/util-functions';
 import { SVGProps } from 'react';
 import styled, { ThemedStyledProps } from 'styled-components';
 
