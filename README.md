@@ -25,8 +25,6 @@
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community.
 
-![](https://github.com/actions/react-icon-collection/workflows/github-ci/badge.svg?event=push)
-
 # React Logo Collection
 
 <div>
@@ -52,41 +50,7 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
   </a>
 </div>
 
-A generic, Logo library for React web apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
-
-## Install
-
-Add React Logo Collection to your project. 
-
-`yarn add @react-pakistan/react-logo-collection` or
-`npm install @react-pakistan/react-logo-collection`
-
-### **Styles**
-
-Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code.
-You could either use the default theme as shown below or wire your custom theme object instead. See <a href="/docs/styleguide-typography--typography-story">Typography</a> & <a href="/docs/styleguide-colors--colors-story">Colors</a> being used in the theme object.
-
-```javascript
-  import { ThemeProvider } from 'styled-components';
-  import { theme } from '@react-pakistan/util-functions';
-
-  <ThemeProvider theme={theme}>
-    <App />
-  </ThemeProvider>
-```
-
-### **Use**
-
-- [BitcoinColor29](https://taimoormk.github.io/react-logo-collection/?path=/story/logo-bitcoincolor--bitcoin-color)
-```javascript
-  import { BitcoinColor29 } from '@react-pakistan/react-logo-collection/bitcoin-color';
-
-  <BitcoinColor29
-    fontSize="32px"
-  />
-```
-
-# Other Libraries from ReactPakistan
+### **Other Libraries from ReactPakistan**
 
 <div>
   <a
@@ -110,6 +74,7 @@ You could either use the default theme as shown below or wire your custom theme 
     />
   </a>
 </div>
+
 <div>
   <a
     href="https://taimoormk.github.io/react-ui-collection"
@@ -132,6 +97,7 @@ You could either use the default theme as shown below or wire your custom theme 
     />
   </a>
 </div>
+
 <div>
   <a
     href="https://taimoormk.github.io/react-icon-collection"
@@ -154,6 +120,7 @@ You could either use the default theme as shown below or wire your custom theme 
     />
   </a>
 </div>
+
 <div>
   <a
     href="https://taimoormk.github.io/react-emoji-collection"
@@ -176,6 +143,48 @@ You could either use the default theme as shown below or wire your custom theme 
     />
   </a>
 </div>
+
+A generic, Logo library for React web apps, following modern approach by building your project's UI in isolation using state of the art Storybook along with React.
+
+## Install
+
+Add React Logo Collection to your project. 
+
+```
+  yarn add @react-pakistan/react-logo-collection
+```
+OR
+```
+  npm install @react-pakistan/react-logo-collection
+```
+
+Add React Emoji Collection base theme to your project.
+
+```console
+  yarn add @react-pakistan/util-functions
+```
+OR
+```console
+  npm install @react-pakistan/util-functions
+```
+
+### **Styles**
+
+Styled Components are employed to maintain and update theme for this project. Please consider adding Styled Component Provider wrapper to the entry point of your application, following is the sample code.
+You could either use the default theme as shown below or wire your custom theme object instead.
+
+```javascript
+  import { ThemeProvider } from 'styled-components';
+  import { theme } from '@react-pakistan/util-functions';
+
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
+```
+
+### **Use**
+
+Refer to [React Pakistan Docs](https://react-pakistan.github.io/react-pakistan-docs) for detail usage docs.
 
 ## Buy me a coffee
 <div>
