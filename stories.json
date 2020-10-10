@@ -3,23 +3,23 @@
   "globalParameters": {},
   "kindParameters": {
     "1. React Pakistan / Intro": {
-      "fileName": 717,
+      "fileName": 502,
       "framework": "react"
     },
     "Logo/BitcoinColor": {
-      "fileName": 1636,
+      "fileName": 1423,
       "framework": "react"
     },
     "Logo/MiscColor": {
-      "fileName": 1642,
+      "fileName": 1427,
       "framework": "react"
     },
     "Logo/MiscGrey": {
-      "fileName": 1640,
+      "fileName": 1426,
       "framework": "react"
     },
     "Logo/VintageColor": {
-      "fileName": 1637,
+      "fileName": 1424,
       "framework": "react"
     }
   },
