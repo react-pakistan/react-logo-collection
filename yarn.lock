@@ -1531,6 +1531,19 @@
     eslint-plugin-react-hooks "^4.1.2"
     typescript "^4.0.3"
 
+"@react-pakistan/react-commons-collection@^6.0.1":
+  version "6.0.1"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.0.1.tgz#9df7d6132ca7bc30fe37a44e61c9231434080c02"
+  integrity sha512-hfdx1PakslpSxopA2cLVaX0Ny+uAVM1ljz/Ivy2lNr0ku4y8c4PD1wxZ/Eq+ZsdQXOMP4H2wk/4x6aMUjmcEJQ==
+  dependencies:
+    react-share "^4.3.0"
+    styled-components "^5.2.0"
+
+"@react-pakistan/react-icon-collection@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-2.1.0.tgz#70a1deeead8355eed21ef0b790d3b3c2d4628c3b"
+  integrity sha512-QKnZbKzWskaa/qumKrPxdIho9Jo2I27OOlHdSHcgpv2XOWsiOn/VZ96hFEYh/65aZvl5xjl0X4GXO5RltnzXtw==
+
 "@react-pakistan/util-functions@^1.0.7":
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.0.7.tgz#84e2640aece5575f159876baee3061053436490e"
@@ -2480,19 +2493,6 @@
     "@svgr/plugin-jsx" "^5.4.0"
     "@svgr/plugin-svgo" "^5.4.0"
     loader-utils "^2.0.0"
-
-"@taimoormk/react-commons-collection@^2.1.2":
-  version "2.1.2"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/react-commons-collection/2.1.2/36f55a7d3cdeebf491fcb7d0fcc7c838fcf9f8ff35ac599ad8fb8b9f40f67466#39df4a924924f42a3a2d3c1cacafa2664a6fa96a"
-  integrity sha512-WTksylQtEVXvZelzOOk8x0ZtMr8Ru/+I68WNA3XN0Lb0OxAmCgyRSh9OeDlogD+6dY3zHCat+eTMuTcWAw8eFw==
-  dependencies:
-    react-share "^4.3.0"
-    styled-components "^5.2.0"
-
-"@taimoormk/react-icon-collection@^1.0.8":
-  version "1.0.8"
-  resolved "https://npm.pkg.github.com/download/@taimoormk/react-icon-collection/1.0.8/1f4ef501c175318e4f197cd4a1ab11fefde2cd4dbd568a3dd0af26321f836ee2#ea87eee6118e637d0c4281b54901d4de86b0b2d8"
-  integrity sha512-hTArIvBrM2NJjHFszA2d+ku0nZirUg8wpvtS7NRA4OsBugmoz03ofWqNgnM8Z/xmWcwCX/nCMnV8oRt9LX68eQ==
 
 "@types/anymatch@*":
   version "1.3.1"
