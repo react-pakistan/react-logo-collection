@@ -28,9 +28,6 @@
     "test": "jest --coverage --config jest/config.json --passWithNoTests",
     "upgrade": "ncu -u"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/react-pakistan/react-logo-collection.git"
