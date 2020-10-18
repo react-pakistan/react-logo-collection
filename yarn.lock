@@ -1544,10 +1544,10 @@
   resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.0.0.tgz#2993cd6448990f600e8e46df95f9014ca40b6f37"
   integrity sha512-pAw0+nIoniu9Gl2o4FmJbj/8FBsmpITkjz8YAKEUZ0EvYEAGkdTDvHnaQrN1Cv0zduruJaXHKxcc//cp7YeA7g==
 
-"@react-pakistan/util-functions@^1.0.12":
-  version "1.0.12"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.0.12.tgz#49b6e5b10940c87fb91bb00a1b627ecd3da36441"
-  integrity sha512-gkoD6UjHEmrxGDREMeZHUIhmUzA+sAeMluU1Mf8jwMacV7ntXNetuUrsPjRB2PcHNFaDqoWdxS8Scrg2x0Nvxw==
+"@react-pakistan/util-functions@^1.0.13":
+  version "1.0.13"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.0.13.tgz#392f17112a6e19acf758b65b663063d5afb50564"
+  integrity sha512-KntQsFvXZCSTZ9g69SG4i0FW9HFOr5OsJpJb7wyMCs/mMvfip6F9BFshkvlLKIGWcC0M16lL54tidkHvx7+l3w==
   dependencies:
     "@microsoft/tsdoc" "^0.12.21"
 
@@ -9617,10 +9617,10 @@ lines-and-columns@^1.1.6:
   resolved "https://registry.yarnpkg.com/lines-and-columns/-/lines-and-columns-1.1.6.tgz#1c00c743b433cd0a4e80758f7b64a57440d9ff00"
   integrity sha1-HADHQ7QzzQpOgHWPe2SldEDZ/wA=
 
-lint-staged@^10.4.1:
-  version "10.4.1"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.4.1.tgz#579069caf6451296e37bdd19769028b1f976c469"
-  integrity sha512-E2Y6Mu1haUD3ZefzwBG8tqy3QDQ9udWRS946YcuDCU8Mi22RjwxrEhLrqTLszxl80DG/sCtKdGCArzEkTsBzJQ==
+lint-staged@^10.4.2:
+  version "10.4.2"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-10.4.2.tgz#9fee4635c4b5ddb845746f237c6d43494ccd21c1"
+  integrity sha512-OLCA9K1hS+Sl179SO6kX0JtnsaKj/MZalEhUj5yAgXsb63qPI/Gfn6Ua1KuZdbfkZNEu3/n5C/obYCu70IMt9g==
   dependencies:
     chalk "^4.1.0"
     cli-truncate "^2.1.0"
