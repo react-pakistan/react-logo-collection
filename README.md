@@ -54,17 +54,17 @@ A generic, Logo library for React web apps, following modern approach by buildin
 
 ### 📌 Table of Contents 🚀
 
-- [Demo](#demo) ✨
-- [Technology Stack](#technology-stack) ✨
-- [Installation](#installation) ✨
-- [Usage](#usage) ✨
-- [Styles](#styles) ✨
-- [Tested](#tested) ✨
-- [Contributors](#contributors) ✨
-- [Other Libraries from ReactPakistan](#other-libraries-from-reactpakistan) ✨
-- [Support](#support) ✨
-- [Contact](#contact) ✨
-- [Buy Me Coffee](#buy-me-coffee) ✨
+- [Demo](#-demo-) ✨
+- [Technology Stack](#-technology-stack-) ✨
+- [Installation](#-installation-) ✨
+- [Usage](#-usage-) ✨
+- [Styles](#-styles-) ✨
+- [Tested](#-tested-) ✨
+- [Contributors](#-contributors-) ✨
+- [Other Libraries from ReactPakistan](#-other-libraries-from-reactpakistan-) ✨
+- [Support](#-support-) ✨
+- [Contact](#-contact-) ✨
+- [Buy Me Coffee](#-buy-me-coffee-) ✨
 
 ### 📌 Demo 🚀
 
@@ -84,7 +84,7 @@ Checkout [React Logo Collection](https://react-pakistan.github.io/react-logo-col
 
 - Clone the repo
 - Cd into the project folder
-- Figure out which package manager you have on your system, then run following commands for their specific usecases.
+- Figure out which package manager you have on your system, then run following commands for their specific use cases.
 ```console
   // to install dependencies
   yarn
@@ -115,7 +115,7 @@ OR
   npm install @react-pakistan/react-logo-collection
 ```
 
-Add React Icon Collection base theme to your project.
+Add React Logo Collection base theme to your project.
 
 ```console
   yarn add @react-pakistan/util-functions
@@ -205,7 +205,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <div>
   <a
-    href="https://taimoormk.github.io/react-icon-collection"
+    href="https://react-pakistan.github.io/react-icon-collection"
     target="_blank"
   >
     <img
