@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-logo-collection",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -73,8 +73,8 @@
     "@storybook/core-events": "^6.0.28",
     "@storybook/react": "^6.0.28",
     "@storybook/storybook-deployer": "^2.8.7",
-    "@svgr/cli": "^5.4.0",
-    "@svgr/webpack": "^5.4.0",
+    "@svgr/cli": "^5.5.0",
+    "@svgr/webpack": "^5.5.0",
     "@types/enzyme": "^3.10.8",
     "@types/enzyme-adapter-react-16": "^1.0.6",
     "@types/invariant": "^2.2.34",
