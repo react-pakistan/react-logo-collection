@@ -1,5 +1,4 @@
 {
-  "setupFiles": ["../jest/setup.ts"],
   "transform": {
     "^.+\\.(t|j)sx?$": "ts-jest"
   },
