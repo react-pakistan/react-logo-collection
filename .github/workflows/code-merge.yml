@@ -1,4 +1,4 @@
-name: Continuous Integration
+name: Code Merge
 
 on:
   push:
@@ -12,19 +12,23 @@ jobs:
         node-versions: [12.x]
     
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Checkout repo
+      uses: actions/checkout@v2
+
+    - name: Setup Node ${{ matrix.node-version }}
       uses: actions/setup-node@v1
       with:
         auth-token: ${{ secrets.GH_TOKEN }}
         registry-url: "https://npm.pkg.github.com"
         scope: taimoormk
         node-version: ${{ matrix.node-version }}
-    - name: yarn, lint, and build 
+
+    - name: Install, Lint, Build & Test
       run: |
         yarn
         yarn lint
         yarn build
+        yarn test
       env:
         CI: true
         NODE_AUTH_TOKEN: ${{ secrets.GH_TOKEN }}
