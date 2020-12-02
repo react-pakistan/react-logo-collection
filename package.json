@@ -26,7 +26,7 @@
     "start": "start-storybook -p 9001 -c .storybook",
     "storybook:ghpages": "storybook-to-ghpages",
     "test": "jest --coverage --config jest/config.json --passWithNoTests",
-    "upgrade": "ncu -u"
+    "upgrade": "ncu -u -x webpack"
   },
   "repository": {
     "type": "git",
@@ -54,8 +54,8 @@
     "@babel/core": "^7.12.9",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-react": "^7.12.7",
-    "@react-pakistan/eslint-config-shared": "^1.0.10",
-    "@react-pakistan/react-commons-collection": "^6.0.7",
+    "@react-pakistan/eslint-config-shared": "^1.0.15",
+    "@react-pakistan/react-commons-collection": "^6.1.0",
     "@react-pakistan/react-icon-collection": "^3.0.2",
     "@react-pakistan/util-functions": "^1.0.18",
     "@storybook/addon-a11y": "^6.1.9",
@@ -76,7 +76,7 @@
     "@svgr/cli": "^5.5.0",
     "@svgr/webpack": "^5.5.0",
     "@types/invariant": "^2.2.34",
-    "@types/jest": "^26.0.15",
+    "@types/jest": "^26.0.16",
     "@types/node": "^14.14.10",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
