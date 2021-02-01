@@ -1469,15 +1469,15 @@
     prop-types "^15.6.1"
     react-lifecycles-compat "^3.0.4"
 
-"@react-pakistan/eslint-config-shared@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/eslint-config-shared/-/eslint-config-shared-1.2.3.tgz#f7e750bc16aed621b29bd3e6b9e6c1171b8c5669"
-  integrity sha512-aGBi+TJnIm1CQpqzALicZJTmhMEiTEjVh5EGXwy1nGSzTzACAOwKgO1OJTMdC50Bb1fauOni0dlIUwEjVb6EhA==
+"@react-pakistan/eslint-config-shared@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/eslint-config-shared/-/eslint-config-shared-1.2.4.tgz#e1695446995dbd990b515d08c1025e1ee900dec3"
+  integrity sha512-Vv+spVptPbGvCoiI+CK5lBoRgPVx0ZDHLU880xjotOMjiEA9VV8PqbubYalw/2IJ/Ws8jB+FoP7VU/50KSo48w==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.14.1"
     "@typescript-eslint/parser" "^4.14.1"
     babel-eslint "^10.1.0"
-    eslint "7.18.0"
+    eslint "7.19.0"
     eslint-config-airbnb "^18.2.1"
     eslint-plugin-import "^2.22.1"
     eslint-plugin-jsx-a11y "^6.4.1"
@@ -1485,23 +1485,23 @@
     eslint-plugin-react-hooks "^4.2.0"
     typescript "^4.1.3"
 
-"@react-pakistan/react-commons-collection@^6.3.10":
-  version "6.3.10"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.3.10.tgz#7e6051c0f9c045d9f4b58b79b351b48a5bef3a83"
-  integrity sha512-eaCcJd8fdM4910rpH5RnkDJTeUwOlJYCxS1NHF2ki9yeDwijChGsGRsrLWuWtrxOMTr8V/itdn+yhW8lyENKkg==
+"@react-pakistan/react-commons-collection@^6.3.11":
+  version "6.3.11"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.3.11.tgz#aec0c1f801d604934c31b32b7d818e29326df986"
+  integrity sha512-N8/IZ2+PuIJSueZs/vPoQO1W9ggS+Yr7qTa0Qzjv/nM68dq/pdHyeJi3H5vKNItHryBSCDGtmV74+T0WNv7FCA==
   dependencies:
     react-share "^4.3.1"
     styled-components "^5.2.1"
 
-"@react-pakistan/react-icon-collection@^3.0.13":
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.0.13.tgz#ef7e722fc2be9bf95c075165e2329efd06111a85"
-  integrity sha512-tuuW13HkuUrQXE4jnJs2r0prrurYPdlLGXks54LMjA/TI42TS6tSuOiBO3UJ9SY69xQxiyN7DCchrWqw3RL82g==
+"@react-pakistan/react-icon-collection@^3.0.14":
+  version "3.0.14"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.0.14.tgz#03c2c37b6aee9681e6328e29dc228fec8d7096f5"
+  integrity sha512-t+YTCeBHiB7QMyHtYzgRPcgsdycLYPyJf1+1kGv5UNZv7YYRmtJ9mzEwe7ZyvH79HNrrR4xXICIfZk+yMphw+Q==
 
-"@react-pakistan/util-functions@^1.2.14":
-  version "1.2.14"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.2.14.tgz#12e21972e69288697412cb7b14f2979d3c54158c"
-  integrity sha512-lLtymS60GUeR4Em+A6A7asjw40qAPSLhjk+FFFqzATnhgjHDqyfdxDMqRICWpt2pF8zC+cQBNur91IRcWI8MWw==
+"@react-pakistan/util-functions@^1.2.15":
+  version "1.2.15"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.2.15.tgz#5358858593379ed4e67c3a3a9ad4e70d7a7d4471"
+  integrity sha512-y244SZH9iClGrn4eVxzwTwNi6jkCwLX+BhLV2SCETd7NPa7mUuSBEpUeUjyD9HfL9uag/E+jHwGr/unTfptNLg==
   dependencies:
     "@microsoft/tsdoc" "^0.13.0"
 
@@ -6194,10 +6194,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@7.18.0, eslint@^7.18.0:
-  version "7.18.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.18.0.tgz#7fdcd2f3715a41fe6295a16234bd69aed2c75e67"
-  integrity sha512-fbgTiE8BfUJZuBeq2Yi7J3RB3WGUQ9PNuNbmgi6jt9Iv8qrkxfy19Ds3OpL1Pm7zg3BtTVhvcUZbIRQ0wmSjAQ==
+eslint@7.19.0, eslint@^7.19.0:
+  version "7.19.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.19.0.tgz#6719621b196b5fad72e43387981314e5d0dc3f41"
+  integrity sha512-CGlMgJY56JZ9ZSYhJuhow61lMPPjUzWmChFya71Z/jilVos7mR/jPgaEfVGgMBY5DshbKdG8Ezb8FDCHcoMEMg==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.3.0"
