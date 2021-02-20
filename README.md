@@ -7,7 +7,7 @@
   >
     <img
       alt="React Pakistan - React Logo Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/React_Pakistan_Storybook_Logo.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1565548545/GitHub/optimised/React_Pakistan_Storybook_Logo.jpg"
       width="70%"
     />
   </a>
@@ -34,7 +34,7 @@ React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React 
   >
     <img
       alt="React Pakistan - React Logo Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/react-logo-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499957/GitHub/optimised/react-logo-collection.jpg"
       width="70%"
     />
   </a>
@@ -164,7 +164,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Commons Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-commons-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/optimised/react-commons-collection.jpg"
       width="70%"
     />
   </a>
@@ -187,7 +187,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React UI Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/react-ui-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1566265693/GitHub/optimised/react-ui-collection.jpg"
       width="70%"
     />
   </a>
@@ -210,7 +210,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Icon Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/react-icons-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1567499955/GitHub/optimised/react-icons-collection.jpg"
       width="70%"
     />
   </a>
@@ -233,7 +233,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Emoji Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/optimised/react-emoji-collection.jpg"
       width="70%"
     />
   </a>
@@ -256,7 +256,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Native Icon Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650647/GitHub/react-native-icon-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650647/GitHub/optimised/react-native-icon-collection.jpg"
       width="70%"
     />
   </a>
@@ -279,7 +279,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Native Logo Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650658/GitHub/react-native-logo-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1583650658/GitHub/optimised/react-native-logo-collection.jpg"
       width="70%"
     />
   </a>
@@ -302,7 +302,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   >
     <img
       alt="React Pakistan - React Native Emoji Collection"
-      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/react-emoji-collection.jpg"
+      src="https://res.cloudinary.com/dq6hflqwx/image/upload/v1592815676/GitHub/optimised/react-emoji-collection.jpg"
       width="70%"
     />
   </a>
