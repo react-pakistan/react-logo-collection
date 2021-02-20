@@ -2241,10 +2241,10 @@
   resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.1.0.tgz#e607b62714f744a2f3bf2abbda46ed56ea68a781"
   integrity sha512-7vZuhtwv8sczjMfluhXQf/Ua0rbskAU6rbr9IjyoMWz1NcX06KcEewPWC0aKFKZY1wjPhNXDwsUUeN6KJx+d0w==
 
-"@react-pakistan/util-functions@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.3.0.tgz#08bb9f8768eaad27b3633b28cb518dc3b3ae74e1"
-  integrity sha512-bwyAFGG+ksHV8qYWAz0WpXUWX2ADO7Lb/+eP610oKA0XCH5PjkQtHoBYn8w1Z9J6wTuMdqi2ghFV5v1g1oHjrA==
+"@react-pakistan/util-functions@^1.4.4":
+  version "1.4.7"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/util-functions/-/util-functions-1.4.7.tgz#a8d85b0f25967404eb66aa4df1123dbb6a64ccec"
+  integrity sha512-33cTTBm5am7YfX6QZ6MkmRGR5Ds7VpKfgaIZc/JsK8qn0+C9m4HcNmmkpDXizGVC+0j6wfff7ZQV3BNQXCXhhw==
   dependencies:
     "@microsoft/tsdoc" "^0.13.0"
 
