@@ -2,7 +2,13 @@ import * as React from "react";
 import { ILogoProps } from "../styled";
 
 const SvgBitcoinColor12 = (props: ILogoProps) => (
-  <svg width="1em" height="1em" viewBox="0 0 57 74" {...props}>
+  <svg
+    width="1em"
+    height="1em"
+    viewBox="0 0 57 74"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
     <g fill="none" fillRule="evenodd">
       <path
         d="M50.905 17.639c-.288 1.383-1.663 2.271-3.062 2.039a79.167 79.167 0 00-26.27 0c-1.4.235-2.773-.657-3.062-2.039L15.945 4.943c-.287-1.376.892-2.8 2.631-3.09a97.274 97.274 0 0132.264 0c1.739.29 2.919 1.713 2.631 3.09l-2.566 12.696"

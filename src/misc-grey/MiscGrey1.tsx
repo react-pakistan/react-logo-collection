@@ -4,6 +4,7 @@ import { ILogoProps } from "../styled";
 const SvgMiscGrey1 = (props: ILogoProps) => (
   <svg
     data-name="Layer 1"
+    xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 201.86 35.54"
     width="1em"
     height="1em"
