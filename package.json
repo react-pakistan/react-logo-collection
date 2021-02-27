@@ -35,12 +35,6 @@
     "type": "git",
     "url": "git+https://github.com/react-pakistan/react-logo-collection.git"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn lint:staged",
-      "pre-push": "yarn test && yarn build"
-    }
-  },
   "lint-staged": {
     "*.{ts,tsx}": [
       "yarn lint"
