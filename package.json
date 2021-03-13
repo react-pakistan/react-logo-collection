@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-logo-collection",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -46,7 +46,6 @@
     "url": "https://github.com/react-pakistan/react-logo-collection/issues"
   },
   "homepage": "https://github.com/react-pakistan/react-logo-collection#readme",
-  "dependencies": {},
   "devDependencies": {
     "@babel/core": "^7.13.10",
     "@babel/preset-env": "^7.13.10",
