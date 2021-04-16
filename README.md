@@ -25,6 +25,24 @@
 
 React Pakistan is an OpenSource & Free Software (FOSS) platform, creating React software solutions for the global community. ⭐⭐⭐
 
+[![License](https://img.shields.io/github/license/react-pakistan/react-native-boilerplate.svg)](https://github.com/react-pakistan/react-native-boilerplate/blob/master/LICENSE)
+[![Followers](https://img.shields.io/github/followers/taimoormk.svg?style=social)](https://github.com/taimoormk)
+[![Forks](https://img.shields.io/github/forks/react-pakistan/react-native-boilerplate.svg?style=social)](https://github.com/react-pakistan/react-native-boilerplate)
+[![Stars](https://img.shields.io/github/stars/react-pakistan/react-native-boilerplate.svg?style=social)](https://github.com/react-pakistan/react-native-boilerplate)
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Taimoormk/StrapDown.js/graphs/commit-activity)
+![Maintaner](https://img.shields.io/badge/maintainer-TaimoorKhan-blue)
+[![Website shields.io](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](http://shields.io/)
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://GitHub.com/Taimoormk/ama)
+
+[![Ryo-ma's github trophy](https://github-profile-trophy.vercel.app/?username=Taimoormk&row=1)](https://github.com/ryo-ma/github-profile-trophy)
+
+[![DenverCoder1's github streak](https://github-readme-streak-stats.herokuapp.com/?user=Taimoormk&theme=blue-green)](https://github.com/DenverCoder1/github-readme-streak-stats)
+
+[![Sparkline](https://stars.medv.io/Naereen/badges.svg)](https://stars.medv.io/react-pakistan/react-native-icon-collection)
+
+[![saythanks](https://img.shields.io/badge/say-thanks-ff69b4.svg)](https://saythanks.io/to/Taimoormk)
+
 ## 📌 React Icon Collection ✌
 
 <div>
