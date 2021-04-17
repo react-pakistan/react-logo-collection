@@ -3,17 +3,17 @@ import { ILogoProps } from "../styled";
 
 const SvgMiscGrey1 = (props: ILogoProps) => (
   <svg
-    data-name="Layer 1"
     xmlns="http://www.w3.org/2000/svg"
+    data-name="Layer 1"
     viewBox="0 0 201.86 35.54"
     width="1em"
     height="1em"
     {...props}
   >
     <text
-      transform="translate(7.2 24.75)"
-      fontSize={23}
       fontFamily="HalimunRegular,Halimun"
+      fontSize={23}
+      transform="translate(7.2 24.75)"
     >
       <tspan letterSpacing="-.02em">{"t"}</tspan>
       <tspan x={14.15} y={0}>

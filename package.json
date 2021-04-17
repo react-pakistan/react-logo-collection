@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-logo-collection",
-  "version": "2.1.9",
+  "version": "2.2.0",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -64,6 +64,7 @@
     "@storybook/addon-knobs": "^6.2.8",
     "@storybook/addon-links": "^6.2.8",
     "@storybook/addon-notes": "^5.3.21",
+    "@storybook/addon-postcss": "^2.0.0",
     "@storybook/addon-storysource": "^6.2.8",
     "@storybook/addon-viewport": "^6.2.8",
     "@storybook/core-events": "^6.2.8",
