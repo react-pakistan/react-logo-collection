@@ -7,6 +7,6 @@
   "rules": {
     "no-descending-specificity": null,
     "selector-type-no-unknown": null,
-    "font-family-no-missing-generic-family-keyword": null,
+    "font-family-no-missing-generic-family-keyword": null
   }
 }
