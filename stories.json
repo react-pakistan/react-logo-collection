@@ -1,0 +1,79 @@
+{
+  "v": 2,
+  "globalParameters": {},
+  "kindParameters": {
+    "1. React Pakistan / Intro": {
+      "fileName": 502,
+      "framework": "react"
+    },
+    "Logo/BitcoinColor": {
+      "fileName": 1423,
+      "framework": "react"
+    },
+    "Logo/MiscColor": {
+      "fileName": 1427,
+      "framework": "react"
+    },
+    "Logo/MiscGrey": {
+      "fileName": 1426,
+      "framework": "react"
+    },
+    "Logo/VintageColor": {
+      "fileName": 1424,
+      "framework": "react"
+    }
+  },
+  "stories": {
+    "1-react-pakistan-intro--page": {
+      "id": "1-react-pakistan-intro--page",
+      "name": "Page",
+      "kind": "1. React Pakistan / Intro",
+      "story": "Page",
+      "parameters": {
+        "docsOnly": true,
+        "__id": "1-react-pakistan-intro--page",
+        "__isArgsStory": false
+      }
+    },
+    "logo-bitcoincolor--bitcoin-color": {
+      "id": "logo-bitcoincolor--bitcoin-color",
+      "name": "Bitcoin Color",
+      "kind": "Logo/BitcoinColor",
+      "story": "Bitcoin Color",
+      "parameters": {
+        "__id": "logo-bitcoincolor--bitcoin-color",
+        "__isArgsStory": false
+      }
+    },
+    "logo-misccolor--misc-color": {
+      "id": "logo-misccolor--misc-color",
+      "name": "Misc Color",
+      "kind": "Logo/MiscColor",
+      "story": "Misc Color",
+      "parameters": {
+        "__id": "logo-misccolor--misc-color",
+        "__isArgsStory": false
+      }
+    },
+    "logo-miscgrey--misc-grey": {
+      "id": "logo-miscgrey--misc-grey",
+      "name": "Misc Grey",
+      "kind": "Logo/MiscGrey",
+      "story": "Misc Grey",
+      "parameters": {
+        "__id": "logo-miscgrey--misc-grey",
+        "__isArgsStory": false
+      }
+    },
+    "logo-vintagecolor--vintage-color": {
+      "id": "logo-vintagecolor--vintage-color",
+      "name": "Vintage Color",
+      "kind": "Logo/VintageColor",
+      "story": "Vintage Color",
+      "parameters": {
+        "__id": "logo-vintagecolor--vintage-color",
+        "__isArgsStory": false
+      }
+    }
+  }
+}
