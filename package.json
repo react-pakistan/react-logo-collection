@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-logo-collection",
-  "version": "2.4.4",
+  "version": "2.4.5",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
