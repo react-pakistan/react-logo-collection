@@ -1,6 +1,6 @@
 {
   "name": "@react-pakistan/react-logo-collection",
-  "version": "2.4.11",
+  "version": "2.4.12",
   "description": "React Logo Collection built upon React StoryBook",
   "module": "lib/index.js",
   "main": "lib/index.js",
@@ -52,7 +52,7 @@
     "@babel/preset-typescript": "^7.16.7",
     "@react-pakistan/eslint-config-shared": "^1.4.18",
     "@react-pakistan/react-commons-collection": "^6.16.10",
-    "@react-pakistan/react-icon-collection": "^3.4.11",
+    "@react-pakistan/react-icon-collection": "^3.4.12",
     "@react-pakistan/util-functions": "^1.10.3",
     "@storybook/addon-a11y": "^6.4.19",
     "@storybook/addon-actions": "^6.4.19",
