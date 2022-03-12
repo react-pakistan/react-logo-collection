@@ -3467,10 +3467,10 @@
   resolved "https://registry.yarnpkg.com/@react-pakistan/react-commons-collection/-/react-commons-collection-6.16.10.tgz#dcbb6f33d402b16d9d61b6b9d32dd49a4850f4d7"
   integrity sha512-59BMLvJpvqXT2aC4wYynYE7obdKYJmd5JgbvWxIVrAJlSXACqHQawWGx18AxzRi7uNcHSRuLD9Ppb6WS3MrRQw==
 
-"@react-pakistan/react-icon-collection@^3.4.11":
-  version "3.4.11"
-  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.11.tgz#942e2ec86d72eab383ed667c03ae9a8799dac8af"
-  integrity sha512-3TSlZjo8JKzrNdzAf4g3t0VpK8P3I3Y+7rmGLOaVqqCWMUU3y4uJleiykVWf79m+3EsWwYlbJXBMQEcnh0/wwg==
+"@react-pakistan/react-icon-collection@^3.4.12":
+  version "3.4.12"
+  resolved "https://registry.yarnpkg.com/@react-pakistan/react-icon-collection/-/react-icon-collection-3.4.12.tgz#80b8d94655e979ae051800ece1e3e403194ae5db"
+  integrity sha512-kkhs40jCBb4zVeGyJRovdIKeaK1x0VNYw56ODh+JWCPXzIfK7btKt7bd7W+nmoX9MSL4hhWHS2sUmj9qufGJrg==
 
 "@react-pakistan/util-functions@^1.10.3":
   version "1.10.3"
