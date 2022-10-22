@@ -5,8 +5,8 @@
     "skipLibCheck": true,
   },
   "exclude": [
-    "node_modules",
     "./jest",
     "./src/**/__tests__",
+    "node_modules",
   ]
 }

@@ -18,15 +18,15 @@
     "moduleResolution": "node"
   },
   "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
     "./images.d.ts",
-    "./node_modules/@types"
+    "./node_modules/@types",
+    "./src/**/*.ts",
+    "./src/**/*.tsx"
   ],
   "exclude": [
-    "./jest",
-    "./src/**/__tests__",
     "./.storybook",
-    "./src/**/__stories__"
+    "./jest",
+    "./src/**/__stories__",
+    "./src/**/__tests__"
   ]
 }

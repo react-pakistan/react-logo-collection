@@ -4,6 +4,7 @@
 assets/
 badges/
 coverage/
+jest/
 lib/
 node_modules/
 scripts/
