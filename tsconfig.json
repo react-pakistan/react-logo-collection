@@ -20,10 +20,10 @@
     "./images.d.ts"
   ],
   "exclude": [
-    "node_modules",
-    "./jest",
-    "./src/**/__tests__",
     "./.storybook",
-    "./src/**/__stories__"
+    "./jest",
+    "./src/**/__stories__",
+    "./src/**/__tests__",
+    "node_modules"
   ]
 }
