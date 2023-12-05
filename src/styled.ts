@@ -1,6 +1,5 @@
-import { ITheme } from '@react-pakistan/util-functions';
 import { SVGProps } from 'react';
-import styled, { ThemedStyledProps } from 'styled-components';
+import styled from 'styled-components';
 
 export const LogoWrapper = styled.div`
   display: flex;
@@ -8,7 +7,7 @@ export const LogoWrapper = styled.div`
 `;
 
 export const LogoTextWrapper = styled.div`
-  color: ${({ theme } : ThemedStyledProps<{}, ITheme>) : string => theme.colors.white};
+  color: ${({ theme }) : string => theme.colors.white};
   font-size: 0.75em;
   margin-top: 0.75em;
 `;
