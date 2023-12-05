@@ -1,1 +1,1 @@
-export { default as MiscColor1 } from './MiscColor1'
+export { default as MiscColor1 } from "./MiscColor1";

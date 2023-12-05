@@ -3,10 +3,13 @@ module.exports = {
   svgoConfig: {
     plugins: [
       {
-        removeViewBox: false,
+        name: 'removeViewBox',
+        active: false,
       },
       {
-        removeAttrs: {
+        name: 'removeAttrs',
+        active: false,
+        params: {
           attrs: ["fill"],
         },
       },

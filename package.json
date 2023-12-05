@@ -53,7 +53,7 @@
     "@react-pakistan/eslint-config-shared": "^1.4.60",
     "@react-pakistan/react-commons-collection": "^6.19.14",
     "@react-pakistan/react-icon-collection": "^3.4.32",
-    "@react-pakistan/util-functions": "^1.13.7",
+    "@react-pakistan/util-functions": "^1.19.2",
     "@storybook/addon-a11y": "^6.5.16",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-backgrounds": "^6.5.16",
@@ -103,5 +103,8 @@
     "stylelint-config-styled-components": "^0.1.1",
     "stylelint-processor-styled-components": "^1.10.0",
     "ts-jest": "^29.0.5"
+  },
+  "resolutions": {
+    "@storybook/react-docgen-typescript-plugin": "1.0.6--canary.9.cd77847.0"
   }
 }

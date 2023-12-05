@@ -3,7 +3,8 @@ module.exports = {
   svgoConfig: {
     plugins: [
       {
-        removeViewBox: false,
+        name: 'removeViewBox',
+        active: false,
       },
     ],
   },
