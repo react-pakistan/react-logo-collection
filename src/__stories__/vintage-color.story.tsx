@@ -3,16 +3,16 @@
  * DO NOT EDIT!
  */
 
-import React, { ReactElement } from 'react';
-import { LogoWrapper, LogoTextWrapper, LogoItem } from '../styled';
+import React, { FC, ReactElement } from 'react';
+import { LogoWrapper, LogoTextWrapper, LogoItem, ILogoProps } from '../styled';
 import { StyledStory } from '../styled-app';
 import { LOGO_LIST } from './vintage-color';
 
 const logoStyle = { width: '7rem', height: '7rem' };
 
 const renderItem = (
-  item : { logo : React.SFC<React.SVGProps<SVGSVGElement>> , name : string }
-) : ReactElement => {
+  item: { logo: FC<ILogoProps>, name: string }
+): ReactElement => {
   const Logo = item.logo;
   return (
     <LogoItem
@@ -28,7 +28,7 @@ const renderItem = (
 
 const logos = LOGO_LIST.map(renderItem);
 
-export const VintageColor = () : ReactElement => (
+export const VintageColor = (): ReactElement => (
   <StyledStory>
     <LogoWrapper>
       {logos}

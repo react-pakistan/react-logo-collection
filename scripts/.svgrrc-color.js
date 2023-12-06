@@ -1,9 +1,11 @@
 module.exports = {
   icon: true,
   svgoConfig: {
+    typescript: true,
     plugins: [
       {
-        removeViewBox: false,
+        name: 'removeViewBox',
+        active: false,
       },
     ],
   },

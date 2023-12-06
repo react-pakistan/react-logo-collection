@@ -3,7 +3,7 @@
     "outDir": "./lib",
     "target": "es5",
     "module": "commonjs",
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": true,
     "noUnusedLocals": true,
     "skipLibCheck": true,

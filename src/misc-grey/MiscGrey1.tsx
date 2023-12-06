@@ -1,7 +1,5 @@
 import * as React from "react";
-import { ILogoProps } from "../styled";
-
-const SvgMiscGrey1 = (props: ILogoProps) => (
+const SvgMiscGrey1 = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     data-name="Layer 1"
@@ -34,5 +32,4 @@ const SvgMiscGrey1 = (props: ILogoProps) => (
     </text>
   </svg>
 );
-
 export default SvgMiscGrey1;
