@@ -9,7 +9,7 @@ jobs:
 
     strategy:
       matrix:
-        node-versions: [18.x]
+        node-versions: [18.17.x]
 
     steps:
     - name: Checkout repo
